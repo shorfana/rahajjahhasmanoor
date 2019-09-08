@@ -11,11 +11,9 @@
             $this->load->model('Ortu_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-            // if($method != 'ajax_list'){
-            //   if($this->session->userdata('status')!='login'){
-            //     redirect(base_url('login'));
-            //   }
-            // }
+      if(!$this->session->userdata("username")){
+            redirect('login');
+          }
         }
 
         public function index()
@@ -60,7 +58,7 @@
 							$row[] = $Ortu_model->ttl_ibu;
 							$row[] = $Ortu_model->pendidikan_terakhir_ayah;
 							$row[] = $Ortu_model->pendidikan_terakhir_ibu;
-							
+
               $row[] ="
               <a href='ortu/edit/$Ortu_model->id_ortu'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Ortu_model->id_ortu' href='#'><i class='feather icon-trash'></i></a>";
@@ -125,7 +123,7 @@ public function create_action()
 					'ttl_ibu' => $this->input->post('ttl_ibu',TRUE),
 					'pendidikan_terakhir_ayah' => $this->input->post('pendidikan_terakhir_ayah',TRUE),
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
-					
+
 );
 
             $this->Ortu_model->insert($data);
@@ -159,7 +157,7 @@ public function create_action()
 					'ttl_ibu' => $this->input->post('ttl_ibu',TRUE),
 					'pendidikan_terakhir_ayah' => $this->input->post('pendidikan_terakhir_ayah',TRUE),
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
-					
+
 );
 
             $this->Ortu_model->update($this->input->post('id_ortu', TRUE), $data);

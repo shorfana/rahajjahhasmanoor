@@ -19,9 +19,13 @@
 							$this->column_order[]='nama_guru';
 							$this->column_order[]='nik';
 							$this->column_order[]='nip';
+							$this->column_order[]='username';
+							$this->column_order[]='password';
 							$this->column_search[]='nama_guru';
 							$this->column_search[]='nik';
 							$this->column_search[]='nip';
+							$this->column_search[]='username';
+							$this->column_search[]='password';
 							
         }
 

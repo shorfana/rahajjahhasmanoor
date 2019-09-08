@@ -29,6 +29,18 @@
                 <input type="text" name="nip" class="form-control" value="<?php echo $dataedit->nip?>">
               </div>
               </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">username</label>
+              <div class="col-sm-10">
+                <input type="text" name="username" class="form-control" value="<?php echo $dataedit->username?>">
+              </div>
+              </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">password</label>
+              <div class="col-sm-10">
+                <input type="text" name="password" class="form-control" value="<?php echo $dataedit->password?>">
+              </div>
+              </div>
 
         </div>
         <input type="hidden" id="deleteFiles" name="deleteFiles">

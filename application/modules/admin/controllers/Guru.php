@@ -49,6 +49,8 @@
 							$row[] = $Guru_model->nama_guru;
 							$row[] = $Guru_model->nik;
 							$row[] = $Guru_model->nip;
+							$row[] = $Guru_model->username;
+							$row[] = $Guru_model->password;
 							
               $row[] ="
               <a href='guru/edit/$Guru_model->id_guru'><i class='m-1 feather icon-edit-2'></i></a>
@@ -103,6 +105,8 @@ public function create_action()
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
+					'username' => $this->input->post('username',TRUE),
+					'password' => $this->input->post('password',TRUE),
 					
 );
 
@@ -126,6 +130,8 @@ public function create_action()
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
+					'username' => $this->input->post('username',TRUE),
+					'password' => $this->input->post('password',TRUE),
 					
 );
 
@@ -154,6 +160,8 @@ public function create_action()
 $this->form_validation->set_rules('nama_guru', 'nama_guru', 'trim|required');
 $this->form_validation->set_rules('nik', 'nik', 'trim|required');
 $this->form_validation->set_rules('nip', 'nip', 'trim|required');
+$this->form_validation->set_rules('username', 'username', 'trim|required');
+$this->form_validation->set_rules('password', 'password', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_guru', 'id_guru', 'trim');

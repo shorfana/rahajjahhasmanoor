@@ -10,12 +10,10 @@
             parent::__construct();
             $this->load->model('Siswa_model');
             $this->load->library('form_validation');
-	    $method=$this->router->fetch_method();
-            // if($method != 'ajax_list'){
-            //   if($this->session->userdata('status')!='login'){
-            //     redirect(base_url('login'));
-            //   }
-            // }
+      	    $method=$this->router->fetch_method();
+            if(!$this->session->userdata("username")){
+                  redirect('login');
+                }
         }
 
         public function index()
@@ -60,7 +58,7 @@
 							$row[] = $Siswa_model->agama;
 							$row[] = $Siswa_model->nik_ayah;
 							$row[] = $Siswa_model->nik_ibu;
-							
+
               $row[] ="
               <a href='siswa/edit/$Siswa_model->nik_siswa'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Siswa_model->nik_siswa' href='#'><i class='feather icon-trash'></i></a>";
@@ -125,7 +123,7 @@ public function create_action()
 					'agama' => $this->input->post('agama',TRUE),
 					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
-					
+
 );
 
             $this->Siswa_model->insert($data);
@@ -159,7 +157,7 @@ public function create_action()
 					'agama' => $this->input->post('agama',TRUE),
 					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
-					
+
 );
 
             $this->Siswa_model->update($this->input->post('nik_siswa', TRUE), $data);
