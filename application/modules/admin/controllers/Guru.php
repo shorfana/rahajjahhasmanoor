@@ -11,11 +11,9 @@
             $this->load->model('Guru_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-            // if($method != 'ajax_list'){
-            //   if($this->session->userdata('status')!='login'){
-            //     redirect(base_url('login'));
-            //   }
-            // }
+      if(!$this->session->userdata("username")){
+            redirect('login');
+          }
         }
 
         public function index()
@@ -51,7 +49,7 @@
 							$row[] = $Guru_model->nip;
 							$row[] = $Guru_model->username;
 							$row[] = $Guru_model->password;
-							
+
               $row[] ="
               <a href='guru/edit/$Guru_model->id_guru'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Guru_model->id_guru' href='#'><i class='feather icon-trash'></i></a>";
@@ -107,7 +105,7 @@ public function create_action()
 					'nip' => $this->input->post('nip',TRUE),
 					'username' => $this->input->post('username',TRUE),
 					'password' => $this->input->post('password',TRUE),
-					
+
 );
 
             $this->Guru_model->insert($data);
@@ -132,7 +130,7 @@ public function create_action()
 					'nip' => $this->input->post('nip',TRUE),
 					'username' => $this->input->post('username',TRUE),
 					'password' => $this->input->post('password',TRUE),
-					
+
 );
 
             $this->Guru_model->update($this->input->post('id_guru', TRUE), $data);
