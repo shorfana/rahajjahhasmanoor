@@ -5,8 +5,9 @@
             <div class="container">
                 <div class="keo_breadcrumb">
                     <ul>
-                        <li><a href="<?php echo base_url() ?>front/index">Home</a></li>
-                        <li><span>Kontak Kami</span></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><span>Contact Us</span></li>
                     </ul>
                 </div>
             </div>

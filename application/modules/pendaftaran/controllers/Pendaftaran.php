@@ -14,6 +14,7 @@ class Pendaftaran extends MY_Controller{
     $data['name']='Kostlab';
     $this->load->view('header', $data);
     $this->load->view('from_registration',$data);
+    $this->load->view('footer',$data);
   }
 
 

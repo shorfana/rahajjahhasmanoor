@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Wonderland - Kid Multipurpose Template</title>
+    <title>RA Hajjah Hasma Noor</title>
     <!-- Custom Main StyleSheet CSS -->
     <link href="<?php echo base_url() ?>front/css/main.css" rel="stylesheet">
     <!-- Color StyleSheet CSS -->
@@ -22,7 +22,7 @@
                 <div class="container">
                     <div class="keo_top_ui left">
                         <ul>
-                            <li>Jalan RS Paru-paru, Ancol Selatan, Tanjung Priok, Jakarta Utara</li>
+                            <li>Jln. RS Paru-paru, Jakarta Utara 14350. </li>
                             <li>0878 888888</li>
                         </ul>
                     </div>
@@ -70,7 +70,7 @@
                                 <a href="javascript:void(0)">Akademik <i class="ti-angle-down"></i></a>
                                 <ul class="time">
                                     <li><a href="<?php echo base_url() ?>front/classListing">Kelas</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/teacherListing">Pegajar</a></li>
+                                    <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
@@ -102,61 +102,36 @@
                         </div>
                     </div>
                     <!-- Dl Menu Wrap Start -->
-                    <!-- <div class="keo_index2 dl-menuwrapper" id="dl-menu">
-                        <button class="dl-trigger">Open Menu</button>
+                    <div class="keo_index2 dl-menuwrapper" id="dl-menu">
+                        <button class="dl-trigger">Buka Menu</button>
                         <ul class="dl-menu">
+                          <li><a href="<?php echo base_url() ?>">Home</a></li>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#">Profil</a>
                                 <ul class="dl-submenu">
-                                    <li><a href="<?php echo base_url() ?>index">Home 01</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/index-02.html">Home 02</a></li>
-                                </ul>
+                                  <li><a href="<?php echo base_url() ?>front/about">Sejarah Singkat</a></li>
+                                  <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
+                              </ul>
                             </li>
                             <li>
-                                <a href="#">Classes</a>
+                                <a href="#">Media</a>
                                 <ul class="dl-submenu">
-                                    <li><a href="<?php echo base_url() ?>front/class-listing-grid.html">Class Grid</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/class-listing-grid-color.html">Class Grid With Color</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/class-listing-list-sidebar.html">Class List With Sidebar</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/class-single.html">Class Single</a></li>
-                                </ul>
+                                  <li><a href="<?php echo base_url() ?>front/gallery">Galeri</a></li>
+                                  <li><a href="<?php echo base_url() ?>front/page404">Video</a></li>
+                              </ul>
                             </li>
                             <li>
-                                <a href="#">News</a>
+                                <a href="#">Akademik</a>
                                 <ul class="dl-submenu">
-                                    <li><a href="<?php echo base_url() ?>newsListing">News Grid</a></li>
-                                    <li><a href="<?php echo base_url() ?>newsDetail">News Single</a></li>
-                                </ul>
+                                  <li><a href="<?php echo base_url() ?>front/classListing">Kelas</a></li>
+                                  <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
+                              </ul>
                             </li>
-                            <li>
-                                <a href="#">Event</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="<?php echo base_url() ?>front/event-listing.html">Event Grid</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/event-single.html">Event Single</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Pages</a>
-                                <ul class="dl-submenu">
-                                    <li><a href="<?php echo base_url() ?>front/about-us.html">About Us</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/services.html">Services</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/price-plan.html">Price Plan</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/gallery.html">Gallery</a></li>
-                                    <li>
-                                        <a href="#">Teacher</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="<?php echo base_url() ?>front/teacher-grid.html">Tecaher Grid</a></li>
-                                            <li><a href="<?php echo base_url() ?>front/teacher-detail.html">Teacher Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="<?php echo base_url() ?>front/404-page.html">404 Page</a></li>
-                                    <li><a href="<?php echo base_url() ?>front/coming-soon.html">Coming Soon</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="<?php echo base_url() ?>contact">Contact</a></li>
+                            <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
+                            <li><a href="<?php echo base_url() ?>front/eventListing">Acara</a></li>
+                            <li><a href="<?php echo base_url() ?>front/contact">Kontak Kami</a></li>
                         </ul>
-                    </div><!- Dl Menu Wrap End --> -->
+                    </div><!-- Dl Menu Wrap End -->
                 </div>
             </nav>
             <!-- Navigation Wrap End -->

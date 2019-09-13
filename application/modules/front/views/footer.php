@@ -86,23 +86,25 @@
 
   </div><!--kode4everyone Wrapper End-->
 
-<!--Default JavaScript-->
-<script src="<?php echo base_url() ?>front/js/jquery.js"></script>
-<!--Bootstrap core JavaScript-->
-<script src="<?php echo base_url() ?>front/js/bootstrap.min.js"></script>
-<!--DL Menu JavaScript-->
-<script src="<?php echo base_url() ?>front/js/modernizr.custom.js"></script>
-<script src="<?php echo base_url() ?>front/js/jquery.dlmenu.js"></script>
-<!--Number Counter JavaScript-->
-<script src="<?php echo base_url() ?>front/js/waypoints-min.js"></script>
-<!--Slick Slider JavaScript-->
-<script src="<?php echo base_url() ?>front/js/slick.min.js"></script>
-<!--Isotop JavaScript-->
-<script src="<?php echo base_url() ?>front/js/isotope.pkgd.min.js"></script>
-<!--Magnific JavaScript-->
-<script src="<?php echo base_url() ?>front/js/jquery.magnific-popup.js"></script>
-<!--Custom JavaScript-->
-<script src="<?php echo base_url() ?>front/js/custom.js"></script>
+  <!--Default JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/jquery.js"></script>
+  <!--Bootstrap core JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/bootstrap.min.js"></script>
+  <!--DL Menu JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/modernizr.custom.js"></script>
+  <script src="<?php echo base_url() ?>front/js/jquery.dlmenu.js"></script>
+  <!--Number Counter JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/waypoints-min.js"></script>
+  <!--Slick Slider JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/slick.min.js"></script>
+  <!--Isotop JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/isotope.pkgd.min.js"></script>
+  <!--Magnific JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/jquery.magnific-popup.js"></script>
+  <!--Custom JavaScript-->
+  <script src="<?php echo base_url() ?>front/js/custom.js"></script>
+  <!--Map JavaScript-->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
 </body>
 </html>

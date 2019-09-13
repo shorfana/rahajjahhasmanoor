@@ -104,5 +104,39 @@
 <!--Custom JavaScript-->
 <script src="<?php echo base_url() ?>front/js/custom.js"></script>
 
+
+<!-- BEGIN: Vendor JS-->
+<!-- <script src="<?php base_url()?>assets/vendors/js/vendors.min.js"></script> -->
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="<?php base_url()?>assets/vendors/js/extensions/jquery.steps.min.js"></script>
+<script src="<?php base_url()?>assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+<script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.js"></script>
+<script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+<script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+<script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/legacy.js"></script>
+
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="<?php base_url()?>assets/js/core/app-menu.min.js"></script>
+<script src="<?php base_url()?>assets/js/core/app.min.js"></script>
+<script src="<?php base_url()?>assets/js/scripts/components.min.js"></script>
+<script src="<?php base_url()?>assets/js/scripts/customizer.min.js"></script>
+<script src="<?php base_url()?>assets/js/scripts/footer.min.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="<?php base_url()?>assets/js/scripts/forms/wizard-steps.min.js"></script>
+<script src="<?php base_url()?>assets/js/scripts/pickers/dateTime/pick-a-datetime.min.js"></script>
+<!-- <script src="<?php base_url()?>assets/js/scripts/forms/select/form-select2.min.js"></script> -->
+
+<!-- END: Page JS-->
+
+
+
 </body>
+
+
 </html>
