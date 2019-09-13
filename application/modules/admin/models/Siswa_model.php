@@ -28,8 +28,9 @@
 							$this->column_order[]='status_tempat_tinggal';
 							$this->column_order[]='warga_negara';
 							$this->column_order[]='agama';
-							$this->column_order[]='nik_ayah';
-							$this->column_order[]='nik_ibu';
+							$this->column_order[]='no_kk';
+							$this->column_order[]='no_telp';
+							$this->column_order[]='foto_siswa';
 							$this->column_search[]='id_ortu';
 							$this->column_search[]='no_induk';
 							$this->column_search[]='nama_siswa';
@@ -42,8 +43,9 @@
 							$this->column_search[]='status_tempat_tinggal';
 							$this->column_search[]='warga_negara';
 							$this->column_search[]='agama';
-							$this->column_search[]='nik_ayah';
-							$this->column_search[]='nik_ibu';
+							$this->column_search[]='no_kk';
+							$this->column_search[]='no_telp';
+							$this->column_search[]='foto_siswa';
 							
         }
 

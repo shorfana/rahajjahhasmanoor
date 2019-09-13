@@ -11,9 +11,11 @@
             $this->load->model('Ortu_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-      if(!$this->session->userdata("username")){
-            redirect('login');
-          }
+            // if($method != 'ajax_list'){
+            //   if($this->session->userdata('status')!='login'){
+            //     redirect(base_url('login'));
+            //   }
+            // }
         }
 
         public function index()
@@ -54,11 +56,13 @@
 							$row[] = $Ortu_model->pekerjaan_ibu;
 							$row[] = $Ortu_model->agama_ayah;
 							$row[] = $Ortu_model->agama_ibu;
-							$row[] = $Ortu_model->ttl_ayah;
-							$row[] = $Ortu_model->ttl_ibu;
+							$row[] = $Ortu_model->tanggal_lahir_ayah;
+							$row[] = $Ortu_model->tanggal_lahir_ibu;
 							$row[] = $Ortu_model->pendidikan_terakhir_ayah;
 							$row[] = $Ortu_model->pendidikan_terakhir_ibu;
-
+							$row[] = $Ortu_model->tempat_lahir_ayah;
+							$row[] = $Ortu_model->tempat_lahir_ibu;
+							
               $row[] ="
               <a href='ortu/edit/$Ortu_model->id_ortu'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Ortu_model->id_ortu' href='#'><i class='feather icon-trash'></i></a>";
@@ -119,11 +123,13 @@ public function create_action()
 					'pekerjaan_ibu' => $this->input->post('pekerjaan_ibu',TRUE),
 					'agama_ayah' => $this->input->post('agama_ayah',TRUE),
 					'agama_ibu' => $this->input->post('agama_ibu',TRUE),
-					'ttl_ayah' => $this->input->post('ttl_ayah',TRUE),
-					'ttl_ibu' => $this->input->post('ttl_ibu',TRUE),
+					'tanggal_lahir_ayah' => $this->input->post('tanggal_lahir_ayah',TRUE),
+					'tanggal_lahir_ibu' => $this->input->post('tanggal_lahir_ibu',TRUE),
 					'pendidikan_terakhir_ayah' => $this->input->post('pendidikan_terakhir_ayah',TRUE),
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
-
+					'tempat_lahir_ayah' => $this->input->post('tempat_lahir_ayah',TRUE),
+					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
+					
 );
 
             $this->Ortu_model->insert($data);
@@ -153,11 +159,13 @@ public function create_action()
 					'pekerjaan_ibu' => $this->input->post('pekerjaan_ibu',TRUE),
 					'agama_ayah' => $this->input->post('agama_ayah',TRUE),
 					'agama_ibu' => $this->input->post('agama_ibu',TRUE),
-					'ttl_ayah' => $this->input->post('ttl_ayah',TRUE),
-					'ttl_ibu' => $this->input->post('ttl_ibu',TRUE),
+					'tanggal_lahir_ayah' => $this->input->post('tanggal_lahir_ayah',TRUE),
+					'tanggal_lahir_ibu' => $this->input->post('tanggal_lahir_ibu',TRUE),
 					'pendidikan_terakhir_ayah' => $this->input->post('pendidikan_terakhir_ayah',TRUE),
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
-
+					'tempat_lahir_ayah' => $this->input->post('tempat_lahir_ayah',TRUE),
+					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
+					
 );
 
             $this->Ortu_model->update($this->input->post('id_ortu', TRUE), $data);
@@ -192,10 +200,12 @@ $this->form_validation->set_rules('pekerjaan_ayah', 'pekerjaan_ayah', 'trim|requ
 $this->form_validation->set_rules('pekerjaan_ibu', 'pekerjaan_ibu', 'trim|required');
 $this->form_validation->set_rules('agama_ayah', 'agama_ayah', 'trim|required');
 $this->form_validation->set_rules('agama_ibu', 'agama_ibu', 'trim|required');
-$this->form_validation->set_rules('ttl_ayah', 'ttl_ayah', 'trim|required');
-$this->form_validation->set_rules('ttl_ibu', 'ttl_ibu', 'trim|required');
+$this->form_validation->set_rules('tanggal_lahir_ayah', 'tanggal_lahir_ayah', 'trim|required');
+$this->form_validation->set_rules('tanggal_lahir_ibu', 'tanggal_lahir_ibu', 'trim|required');
 $this->form_validation->set_rules('pendidikan_terakhir_ayah', 'pendidikan_terakhir_ayah', 'trim|required');
 $this->form_validation->set_rules('pendidikan_terakhir_ibu', 'pendidikan_terakhir_ibu', 'trim|required');
+$this->form_validation->set_rules('tempat_lahir_ayah', 'tempat_lahir_ayah', 'trim|required');
+$this->form_validation->set_rules('tempat_lahir_ibu', 'tempat_lahir_ibu', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_ortu', 'id_ortu', 'trim');

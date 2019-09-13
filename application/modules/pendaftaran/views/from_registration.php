@@ -1,232 +1,4 @@
-<!DOCTYPE html>
 
-<html class="loading" lang="en" data-textdirection="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>Wonderland - Kid Multipurpose Template</title>
-  <!-- Custom Main StyleSheet CSS -->
-  <link href="css/main.css" rel="stylesheet">
-  <!-- Color StyleSheet CSS -->
-  <link href="css/color.css" rel="stylesheet">
-  <!-- Responsive StyleSheet CSS -->
-  <link href="css/responsive.css" rel="stylesheet">
-
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-  <meta name="description" content="Vuesax admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-  <meta name="keywords" content="admin template, Vuesax admin template, dashboard template, flat admin template, responsive admin template, web app">
-  <meta name="author" content="PIXINVENT">
-  <title>Form Wizard - Vuesax - Bootstrap HTML admin template</title>
-  <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
-  <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
-
-  <!-- BEGIN: Vendor CSS-->
-  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/pickadate/pickadate.css">
-  <!-- END: Vendor CSS-->
-
-  <!-- BEGIN: Theme CSS-->
-  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/colors.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/components.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/themes/semi-dark-layout.min.css">
-
-  <!-- BEGIN: Page CSS-->
-  <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.min.css">
-  <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/forms/wizard.min.css">
-  <!-- END: Page CSS-->
-
-  <!-- BEGIN: Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- END: Custom CSS-->
-
-</head>
-
-<body>
-  <!--kode4everyone Wrapper Start-->
-  <div class="keo_wrapper">
-    <!-- Header Wrap Start -->
-    <header>
-      <!-- Top Wrap Start -->
-      <div class="keo_top_bar full_width">
-        <div class="container">
-          <div class="keo_top_ui left">
-            <ul>
-              <li>236 Franklin Ave, Brooklyn, NY 11238</li>
-              <li>+1 347-318-3644</li>
-            </ul>
-          </div>
-          <div class="keo_login_lement right">
-            <ul>
-              <li class="language">
-                English
-                <i class="ti-angle-down"></i>
-                <ul class="keo_sub_lang">
-                  <li>Arabic</li>
-                  <li>Urdu</li>
-                  <li>Persian</li>
-                </ul>
-              </li>
-              <li class="login-link">Please <a href="#">Register</a> or <a href="#">Log In</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Top Wrap End -->
-      <!-- Navigation Wrap Start -->
-      <nav class="keo_nav_outer keo_nav2_style theme_bg full_width">
-        <div class="container">
-          <div class="keo_logo text-center left">
-            <a href="index.html">
-              <img src="images/logo.png" alt="">
-            </a>
-          </div>
-          <div class="keo_nav text-center left">
-            <ul>
-              <li>
-                <a href="javascript:void(0)">Home <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="index.html">Home 01</a></li>
-                  <li><a href="index-02.html">Home 02</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Classes <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="class-listing-grid.html">Class Grid</a></li>
-                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
-                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
-                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
-                  <li><a href="class-single.html">Class Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">News <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="blog-listing.html">News Grid</a></li>
-                  <li><a href="blog-single.html">News Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Event <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="event-listing.html">Event Grid</a></li>
-                  <li><a href="event-single.html">Event Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Pages <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="price-plan.html">Price Plan</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li>
-                    <a href="javascript:void(0)">Teacher <i class="ti-angle-right right"></i></a>
-                    <ul class="time">
-                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
-                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404-page.html">404 Page</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                </ul>
-              </li>
-              <li><a href="contact-us.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="keo_nav_ui right">
-            <ul class="right">
-              <li class="search search-fld">
-                <i class="ti-search"></i>
-              </li>
-              <li class="cart">
-                <img class="left" src="images/cart-icon.png" alt="">
-                <div class="cart_des">
-                  <span class="item d-block">3 items</span>
-                  <span class="price">$168.00</span>
-                </div>
-              </li>
-            </ul>
-            <div class="search-wrapper-area time">
-              <form class="search-area time">
-                <input type="text" class="white_ph" placeholder="Search Here" />
-                <input type="submit" value="Go" />
-              </form>
-              <span class="keo_search_remove_btn time">
-                <i class="ti-close"></i>
-              </span>
-            </div>
-          </div>
-          <!-- Dl Menu Wrap Start -->
-          <div class="keo_index2 dl-menuwrapper" id="dl-menu">
-            <button class="dl-trigger">Open Menu</button>
-            <ul class="dl-menu">
-              <li>
-                <a href="#">Home <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="index.html">Home 01</a></li>
-                  <li><a href="index-02.html">Home 02</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Classes <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="class-listing-grid.html">Class Grid</a></li>
-                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
-                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
-                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
-                  <li><a href="class-single.html">Class Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">News <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="blog-listing.html">News Grid</a></li>
-                  <li><a href="blog-single.html">News Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Event <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="event-listing.html">Event Grid</a></li>
-                  <li><a href="event-single.html">Event Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Pages <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="price-plan.html">Price Plan</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li>
-                    <a href="#">Teacher <i class="ti-angle-right right"></i></a>
-                    <ul class="dl-submenu">
-                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
-                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404-page.html">404 Page</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                </ul>
-              </li>
-              <li><a href="contact-us.html">Contact</a></li>
-            </ul>
-          </div><!-- Dl Menu Wrap End -->
-        </div>
-      </nav>
-      <!-- Navigation Wrap End -->
-    </header><!-- Header Wrap End -->
 
     <!-- Slider Wrap Start -->
     <div class="keo_breadcrumb_bg full_width">
@@ -256,7 +28,9 @@
 
         <div class="container">
           <div class="row">
-            <h2>Formulir Pendaftaran Peserta Didik Tahun Ajaran 2019/2020</h2>
+            <div class="col-md-12">
+              <h2>Formulir Pendaftaran Peserta Didik Tahun Ajaran 2019/2020</h2>
+            </div>
           </div>
 
           <!-- BEGIN: Content-->
@@ -267,25 +41,7 @@
             <!-- END: Header-->
 
             <div class="content-wrapper">
-              <div class="content-header row">
-                <div class="content-header-left col-md-9 col-12 mb-2">
-                  <div class="row breadcrumbs-top">
-                    <div class="col-12">
-                      <h2 class="content-header-title float-left mb-0">Form Wizard</h2>
-                      <div class="breadcrumb-wrapper col-12">
-                        <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a href="index.html">Home</a>
-                          </li>
-                          <li class="breadcrumb-item"><a href="#">Forms</a>
-                          </li>
-                          <li class="breadcrumb-item active">Form Wizard
-                          </li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               <div class="content-body">
                 <!-- Form wizard with number tabs section start -->
 
@@ -318,7 +74,7 @@
                                   </div>
                                 </div>
 
-                                <div class="row">
+                                <!-- <div class="row">
                                   <div class="col-md-3">
                                   </div>
                                   <div class="col-md-6">
@@ -329,7 +85,7 @@
                                       <input type="text" class="form-control required" id="namaPanggilan" name="namaPanggilan">
                                     </div>
                                   </div>
-                                </div>
+                                </div> -->
 
                                 <div class="row">
                                   <div class="col-md-3">
@@ -399,7 +155,7 @@
                                                       <span class="vs-radio--border"></span>
                                                       <span class="vs-radio--circle"></span>
                                                     </span>
-                                                    <span class="">Laki - Laki</span>
+                                                    <span class="">Laki - laki</span>
                                                   </div>
                                                 </fieldset>
                                               </li>
@@ -462,7 +218,7 @@
                                   <div class="col-md-6">
                                     <div class="form-group">
                                       <label for="nomorHp">
-                                        Nomor HP
+                                        Nomor Telepon
                                       </label>
                                       <input type="number" class="form-control required" id="nomorHp" name="nomorHp">
                                     </div>
@@ -942,7 +698,7 @@
     <div class="container">
       <div class="keo_hdg_01 text-center p_relative">
         <h4 class="">How to enroll step-by-step</h4>
-        <img class="mb_20" src="images/heading-green.png" alt="">
+        <img class="mb_20" src="<?php base_url() ?>front/images/heading-green.png" alt="">
       </div>
       <div class="row">
         <div class="col-md-4">
@@ -1003,7 +759,7 @@
               <h4 class="widget_hdg p_relative">About Us</h4>
               <p class="white_text">Alterum accommodare duo cu. Iusen labore luptatum efficiendi ex, vim enim rebum honestatis, his consulatu pertinacia deterruisset.</p>
               <p class="white_text">Duis eget velit sodales, tristique dui a, malesuada erat. Phasellus at neque augue. Nullam convallis tincidunt tincidunt. Maecenas a libero aliquam, sollicitudin lectus vel, ultrices lacus aliquam placerat.</p>
-              <img src="images/logo.png" alt="">
+              <img src="<?php base_url() ?>front/images/logo.png" alt="">
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -1013,7 +769,7 @@
                 <li class="full_width">
                   <div class="keo_post_fig full_width">
                     <figure class="left">
-                      <img src="extra-images/blog_post_01.jpg" alt="">
+                      <img src="<?php base_url() ?>front/extra-images/blog_post_01.jpg" alt="">
                     </figure>
                     <div class="keo_post_text">
                       <p class="white_text">Play is our brain’s favorite way of learning</p>
@@ -1024,7 +780,7 @@
                 <li class="full_width">
                   <div class="keo_post_fig full_width">
                     <figure class="left">
-                      <img src="extra-images/blog_post_02.jpg" alt="">
+                      <img src="<?php base_url() ?>front/extra-images/blog_post_02.jpg" alt="">
                     </figure>
                     <div class="keo_post_text">
                       <p class="white_text">Where well rounded starts with well educated</p>
@@ -1102,30 +858,30 @@
 
 
   <!-- BEGIN: Vendor JS-->
-  <script src="app-assets/vendors/js/vendors.min.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/vendors.min.js"></script>
   <!-- BEGIN Vendor JS-->
 
   <!-- BEGIN: Page Vendor JS-->
-  <script src="app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
-  <script src="app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
-  <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
-  <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
-  <script src="app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
-  <script src="app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/extensions/jquery.steps.min.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+  <script src="<?php base_url()?>assets/vendors/js/pickers/pickadate/legacy.js"></script>
 
   <!-- END: Page Vendor JS-->
 
   <!-- BEGIN: Theme JS-->
-  <script src="app-assets/js/core/app-menu.min.js"></script>
-  <script src="app-assets/js/core/app.min.js"></script>
-  <script src="app-assets/js/scripts/components.min.js"></script>
-  <script src="app-assets/js/scripts/customizer.min.js"></script>
-  <script src="app-assets/js/scripts/footer.min.js"></script>
+  <script src="<?php base_url()?>assets/js/core/app-menu.min.js"></script>
+  <script src="<?php base_url()?>assets/js/core/app.min.js"></script>
+  <script src="<?php base_url()?>assets/js/scripts/components.min.js"></script>
+  <script src="<?php base_url()?>assets/js/scripts/customizer.min.js"></script>
+  <script src="<?php base_url()?>assets/js/scripts/footer.min.js"></script>
   <!-- END: Theme JS-->
 
   <!-- BEGIN: Page JS-->
-  <script src="app-assets/js/scripts/forms/wizard-steps.min.js"></script>
-  <script src="app-assets/js/scripts/pickers/dateTime/pick-a-datetime.min.js"></script>
+  <script src="<?php base_url()?>assets/js/scripts/forms/wizard-steps.min.js"></script>
+  <script src="<?php base_url()?>assets/js/scripts/pickers/dateTime/pick-a-datetime.min.js"></script>
 
   <!-- END: Page JS-->
 

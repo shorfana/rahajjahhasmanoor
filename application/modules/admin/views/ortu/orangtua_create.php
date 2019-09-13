@@ -66,15 +66,15 @@
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">ttl_ayah</label>
+                <label class="col-sm-2 col-form-label">tanggal_lahir_ayah</label>
                 <div class="col-sm-10">
-                  <input type="text" name="ttl_ayah" class="form-control">
+                  <input type="text" name="tanggal_lahir_ayah" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">ttl_ibu</label>
+                <label class="col-sm-2 col-form-label">tanggal_lahir_ibu</label>
                 <div class="col-sm-10">
-                  <input type="text" name="ttl_ibu" class="form-control">
+                  <input type="text" name="tanggal_lahir_ibu" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
@@ -87,6 +87,18 @@
                 <label class="col-sm-2 col-form-label">pendidikan_terakhir_ibu</label>
                 <div class="col-sm-10">
                   <input type="text" name="pendidikan_terakhir_ibu" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">tempat_lahir_ayah</label>
+                <div class="col-sm-10">
+                  <input type="text" name="tempat_lahir_ayah" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">tempat_lahir_ibu</label>
+                <div class="col-sm-10">
+                  <input type="text" name="tempat_lahir_ibu" class="form-control">
                 </div>
               </div>
 </div>

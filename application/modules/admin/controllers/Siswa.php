@@ -10,10 +10,12 @@
             parent::__construct();
             $this->load->model('Siswa_model');
             $this->load->library('form_validation');
-      	    $method=$this->router->fetch_method();
-            if(!$this->session->userdata("username")){
-                  redirect('login');
-                }
+	    $method=$this->router->fetch_method();
+            // if($method != 'ajax_list'){
+            //   if($this->session->userdata('status')!='login'){
+            //     redirect(base_url('login'));
+            //   }
+            // }
         }
 
         public function index()
@@ -56,9 +58,10 @@
 							$row[] = $Siswa_model->status_tempat_tinggal;
 							$row[] = $Siswa_model->warga_negara;
 							$row[] = $Siswa_model->agama;
-							$row[] = $Siswa_model->nik_ayah;
-							$row[] = $Siswa_model->nik_ibu;
-
+							$row[] = $Siswa_model->no_kk;
+							$row[] = $Siswa_model->no_telp;
+							$row[] = $Siswa_model->foto_siswa;
+							
               $row[] ="
               <a href='siswa/edit/$Siswa_model->nik_siswa'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Siswa_model->nik_siswa' href='#'><i class='feather icon-trash'></i></a>";
@@ -121,9 +124,10 @@ public function create_action()
 					'status_tempat_tinggal' => $this->input->post('status_tempat_tinggal',TRUE),
 					'warga_negara' => $this->input->post('warga_negara',TRUE),
 					'agama' => $this->input->post('agama',TRUE),
-					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
-					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
-
+					'no_kk' => $this->input->post('no_kk',TRUE),
+					'no_telp' => $this->input->post('no_telp',TRUE),
+					'foto_siswa' => $this->input->post('foto_siswa',TRUE),
+					
 );
 
             $this->Siswa_model->insert($data);
@@ -155,9 +159,10 @@ public function create_action()
 					'status_tempat_tinggal' => $this->input->post('status_tempat_tinggal',TRUE),
 					'warga_negara' => $this->input->post('warga_negara',TRUE),
 					'agama' => $this->input->post('agama',TRUE),
-					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
-					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
-
+					'no_kk' => $this->input->post('no_kk',TRUE),
+					'no_telp' => $this->input->post('no_telp',TRUE),
+					'foto_siswa' => $this->input->post('foto_siswa',TRUE),
+					
 );
 
             $this->Siswa_model->update($this->input->post('nik_siswa', TRUE), $data);
@@ -194,8 +199,9 @@ $this->form_validation->set_rules('tingkat', 'tingkat', 'trim|required');
 $this->form_validation->set_rules('status_tempat_tinggal', 'status_tempat_tinggal', 'trim|required');
 $this->form_validation->set_rules('warga_negara', 'warga_negara', 'trim|required');
 $this->form_validation->set_rules('agama', 'agama', 'trim|required');
-$this->form_validation->set_rules('nik_ayah', 'nik_ayah', 'trim|required');
-$this->form_validation->set_rules('nik_ibu', 'nik_ibu', 'trim|required');
+$this->form_validation->set_rules('no_kk', 'no_kk', 'trim|required');
+$this->form_validation->set_rules('no_telp', 'no_telp', 'trim|required');
+$this->form_validation->set_rules('foto_siswa', 'foto_siswa', 'trim|required');
 
 
 	$this->form_validation->set_rules('nik_siswa', 'nik_siswa', 'trim');

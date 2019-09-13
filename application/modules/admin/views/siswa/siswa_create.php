@@ -78,15 +78,21 @@
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">nik_ayah</label>
+                <label class="col-sm-2 col-form-label">no_kk</label>
                 <div class="col-sm-10">
-                  <input type="text" name="nik_ayah" class="form-control">
+                  <input type="text" name="no_kk" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">nik_ibu</label>
+                <label class="col-sm-2 col-form-label">no_telp</label>
                 <div class="col-sm-10">
-                  <input type="text" name="nik_ibu" class="form-control">
+                  <input type="text" name="no_telp" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">foto_siswa</label>
+                <div class="col-sm-10">
+                  <input type="text" name="foto_siswa" class="form-control">
                 </div>
               </div>
 </div>

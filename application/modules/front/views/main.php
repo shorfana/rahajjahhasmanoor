@@ -1,9 +1,28 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>RA Hajjah Hasmah Noor</title>
+    <!-- Custom Main StyleSheet CSS -->
+    <link href="<?php echo base_url() ?>front/css/main.css" rel="stylesheet">
+    <!-- Color StyleSheet CSS -->
+    <link href="<?php echo base_url() ?>front/css/color.css" rel="stylesheet">
+    <!-- Responsive StyleSheet CSS -->
+    <link href="<?php echo base_url() ?>front/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <!--kode4everyone Wrapper Start-->
+    <div class="keo_wrapper">
+
+
         <!-- Slider Wrap Start -->
         <section class="keo_banner keo_bg_img">
             <div class="banner_des text-center">
                 <p class="text-uppercase">Dedicated  to excellence</p>
                 <h3>Making your child's <span class="d-block">world better</span></h3>
-                <a class="text-uppercase" href="<?php echo base_url() ?>">Daftarkan Sekarang</a>
+                <a class="text-uppercase" href="<?php base_url() ?>pendaftaran">Daftar Sekarang</a>
             </div>
         </section><!-- Slider Wrap End -->
         <!-- Main Content Start -->

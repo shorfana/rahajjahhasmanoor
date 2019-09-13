@@ -26,10 +26,12 @@
 							$this->column_order[]='pekerjaan_ibu';
 							$this->column_order[]='agama_ayah';
 							$this->column_order[]='agama_ibu';
-							$this->column_order[]='ttl_ayah';
-							$this->column_order[]='ttl_ibu';
+							$this->column_order[]='tanggal_lahir_ayah';
+							$this->column_order[]='tanggal_lahir_ibu';
 							$this->column_order[]='pendidikan_terakhir_ayah';
 							$this->column_order[]='pendidikan_terakhir_ibu';
+							$this->column_order[]='tempat_lahir_ayah';
+							$this->column_order[]='tempat_lahir_ibu';
 							$this->column_search[]='nik_ayah';
 							$this->column_search[]='nama_ayah';
 							$this->column_search[]='nik_ibu';
@@ -40,10 +42,12 @@
 							$this->column_search[]='pekerjaan_ibu';
 							$this->column_search[]='agama_ayah';
 							$this->column_search[]='agama_ibu';
-							$this->column_search[]='ttl_ayah';
-							$this->column_search[]='ttl_ibu';
+							$this->column_search[]='tanggal_lahir_ayah';
+							$this->column_search[]='tanggal_lahir_ibu';
 							$this->column_search[]='pendidikan_terakhir_ayah';
 							$this->column_search[]='pendidikan_terakhir_ibu';
+							$this->column_search[]='tempat_lahir_ayah';
+							$this->column_search[]='tempat_lahir_ibu';
 							
         }
 

@@ -35,7 +35,7 @@
                                     <li>English</li>
                                 </ul>
                             </li>
-                            <li class="login-link">Silahkan <a href="#">Log In</a></li>
+                            <li class="login-link"> <a href="<?php base_url() ?>login">Log In</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,13 +45,13 @@
             <nav class="keo_nav_outer keo_nav2_style theme_bg full_width">
                 <div class="container">
                     <div class="keo_logo text-center left">
-                        <a href="<?php echo base_url() ?>front/index">
+                        <a href="<?php echo base_url() ?>">
                             <img src="<?php echo base_url() ?>front/images/logo.png" alt="">
                         </a>
                     </div>
                     <div class="keo_nav text-center left">
                         <ul>
-                          <li><a href="<?php echo base_url() ?>front/index">Home</a></li>
+                          <li><a href="<?php echo base_url() ?>">Home</a></li>
                           <li>
                               <a href="javascript:void(0)">Profil <i class="ti-angle-down"></i></a>
                               <ul class="time">
@@ -156,7 +156,7 @@
                             </li>
                             <li><a href="<?php echo base_url() ?>contact">Contact</a></li>
                         </ul>
-                    </div><!-- Dl Menu Wrap End --> -->
+                    </div><!- Dl Menu Wrap End --> -->
                 </div>
             </nav>
             <!-- Navigation Wrap End -->

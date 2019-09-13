@@ -72,15 +72,15 @@
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">ttl_ayah</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">tanggal_lahir_ayah</label>
               <div class="col-sm-10">
-                <input type="text" name="ttl_ayah" class="form-control" value="<?php echo $dataedit->ttl_ayah?>">
+                <input type="text" name="tanggal_lahir_ayah" class="form-control" value="<?php echo $dataedit->tanggal_lahir_ayah?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">ttl_ibu</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">tanggal_lahir_ibu</label>
               <div class="col-sm-10">
-                <input type="text" name="ttl_ibu" class="form-control" value="<?php echo $dataedit->ttl_ibu?>">
+                <input type="text" name="tanggal_lahir_ibu" class="form-control" value="<?php echo $dataedit->tanggal_lahir_ibu?>">
               </div>
               </div>
 						<div class="form-group row">
@@ -93,6 +93,18 @@
               <label for="example-text-input" class="col-sm-2 col-form-label">pendidikan_terakhir_ibu</label>
               <div class="col-sm-10">
                 <input type="text" name="pendidikan_terakhir_ibu" class="form-control" value="<?php echo $dataedit->pendidikan_terakhir_ibu?>">
+              </div>
+              </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">tempat_lahir_ayah</label>
+              <div class="col-sm-10">
+                <input type="text" name="tempat_lahir_ayah" class="form-control" value="<?php echo $dataedit->tempat_lahir_ayah?>">
+              </div>
+              </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">tempat_lahir_ibu</label>
+              <div class="col-sm-10">
+                <input type="text" name="tempat_lahir_ibu" class="form-control" value="<?php echo $dataedit->tempat_lahir_ibu?>">
               </div>
               </div>
 

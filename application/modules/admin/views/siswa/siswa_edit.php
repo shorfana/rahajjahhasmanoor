@@ -84,15 +84,21 @@
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">nik_ayah</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">no_kk</label>
               <div class="col-sm-10">
-                <input type="text" name="nik_ayah" class="form-control" value="<?php echo $dataedit->nik_ayah?>">
+                <input type="text" name="no_kk" class="form-control" value="<?php echo $dataedit->no_kk?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">nik_ibu</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">no_telp</label>
               <div class="col-sm-10">
-                <input type="text" name="nik_ibu" class="form-control" value="<?php echo $dataedit->nik_ibu?>">
+                <input type="text" name="no_telp" class="form-control" value="<?php echo $dataedit->no_telp?>">
+              </div>
+              </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">foto_siswa</label>
+              <div class="col-sm-10">
+                <input type="text" name="foto_siswa" class="form-control" value="<?php echo $dataedit->foto_siswa?>">
               </div>
               </div>
 
