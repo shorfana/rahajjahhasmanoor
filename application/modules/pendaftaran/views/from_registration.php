@@ -1,4 +1,234 @@
 
+<!DOCTYPE html>
+
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>RA Hajjah Hasma Noor | Pendaftaran</title>
+  <!-- Custom Main StyleSheet CSS -->
+  <link href="<?php base_url() ?>front/css/main.css" rel="stylesheet">
+  <!-- Color StyleSheet CSS -->
+  <link href="<?php base_url() ?>front/css/color.css" rel="stylesheet">
+  <!-- Responsive StyleSheet CSS -->
+  <link href="<?php base_url() ?>front/css/responsive.css" rel="stylesheet">
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="description" content="Vuesax admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+  <meta name="keywords" content="admin template, Vuesax admin template, dashboard template, flat admin template, responsive admin template, web app">
+  <meta name="author" content="PIXINVENT">
+  <title>Form Wizard - Vuesax - Bootstrap HTML admin template</title>
+  <link rel="apple-touch-icon" href="<?php base_url()?>assets/images/ico/apple-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php base_url()?>assets/images/ico/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+  <!-- BEGIN: Vendor CSS-->
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/vendors/css/vendors.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/vendors/css/pickers/pickadate/pickadate.css">
+  <!-- END: Vendor CSS-->
+
+  <!-- BEGIN: Theme CSS-->
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/bootstrap-extended.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/colors.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/components.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/themes/dark-layout.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/themes/semi-dark-layout.min.css">
+
+  <!-- BEGIN: Page CSS-->
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/core/menu/menu-types/vertical-menu.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/core/colors/palette-gradient.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php base_url()?>assets/css/plugins/forms/wizard.min.css">
+  <!-- END: Page CSS-->
+
+  <!-- BEGIN: Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- END: Custom CSS-->
+
+</head>
+
+<body>
+  <!--kode4everyone Wrapper Start-->
+  <div class="keo_wrapper">
+    <!-- Header Wrap Start -->
+    <header>
+      <!-- Top Wrap Start -->
+      <div class="keo_top_bar full_width">
+        <div class="container">
+          <div class="keo_top_ui left">
+            <ul>
+              <li>Jln. RS Paru-paru, Jakarta Utara 14350. </li>
+              <li>+1 347-318-3644</li>
+            </ul>
+          </div>
+          <div class="keo_login_lement right">
+            <ul>
+              <li class="language">
+                Bahasa
+                <i class="ti-angle-down"></i>
+                <ul class="keo_sub_lang">
+                  <li>Arabic</li>
+                  <li>Urdu</li>
+                  <li>Persian</li>
+                </ul>
+              </li>
+              <li class="login-link"><a href="#">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Top Wrap End -->
+      <!-- Navigation Wrap Start -->
+      <nav class="keo_nav_outer keo_nav2_style theme_bg full_width">
+        <div class="container">
+          <div class="keo_logo text-center left">
+            <a href="<?php base_url() ?>">
+              <img src="<?php base_url() ?>front/images/logo.png" alt="">
+            </a>
+          </div>
+          <div class="keo_nav text-center left">
+            <ul>
+              <li>
+                <a href="javascript:void(0)">Home <i class="ti-angle-down"></i></a>
+                <ul class="time">
+                  <li><a href="index.html">Home 01</a></li>
+                  <li><a href="index-02.html">Home 02</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Classes <i class="ti-angle-down"></i></a>
+                <ul class="time">
+                  <li><a href="class-listing-grid.html">Class Grid</a></li>
+                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
+                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
+                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
+                  <li><a href="class-single.html">Class Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)">News <i class="ti-angle-down"></i></a>
+                <ul class="time">
+                  <li><a href="blog-listing.html">News Grid</a></li>
+                  <li><a href="blog-single.html">News Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Event <i class="ti-angle-down"></i></a>
+                <ul class="time">
+                  <li><a href="event-listing.html">Event Grid</a></li>
+                  <li><a href="event-single.html">Event Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="javascript:void(0)">Pages <i class="ti-angle-down"></i></a>
+                <ul class="time">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="price-plan.html">Price Plan</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="javascript:void(0)">Teacher <i class="ti-angle-right right"></i></a>
+                    <ul class="time">
+                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
+                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="404-page.html">404 Page</a></li>
+                  <li><a href="coming-soon.html">Coming Soon</a></li>
+                </ul>
+              </li>
+              <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="keo_nav_ui right">
+            <ul class="right">
+              <li class="search search-fld">
+                <i class="ti-search"></i>
+              </li>
+              <li class="cart">
+                <img class="left" src="<?php base_url() ?>front/images/cart-icon.png" alt="">
+                <div class="cart_des">
+                  <span class="item d-block">3 items</span>
+                  <span class="price">$168.00</span>
+                </div>
+              </li>
+            </ul>
+            <div class="search-wrapper-area time">
+              <form class="search-area time">
+                <input type="text" class="white_ph" placeholder="Search Here" />
+                <input type="submit" value="Go" />
+              </form>
+              <span class="keo_search_remove_btn time">
+                <i class="ti-close"></i>
+              </span>
+            </div>
+          </div>
+          <!-- Dl Menu Wrap Start -->
+          <div class="keo_index2 dl-menuwrapper" id="dl-menu">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+              <li>
+                <a href="#">Home <i class="ti-angle-down"></i></a>
+                <ul class="dl-submenu">
+                  <li><a href="index.html">Home 01</a></li>
+                  <li><a href="index-02.html">Home 02</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Classes <i class="ti-angle-down"></i></a>
+                <ul class="dl-submenu">
+                  <li><a href="class-listing-grid.html">Class Grid</a></li>
+                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
+                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
+                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
+                  <li><a href="class-single.html">Class Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">News <i class="ti-angle-down"></i></a>
+                <ul class="dl-submenu">
+                  <li><a href="blog-listing.html">News Grid</a></li>
+                  <li><a href="blog-single.html">News Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Event <i class="ti-angle-down"></i></a>
+                <ul class="dl-submenu">
+                  <li><a href="event-listing.html">Event Grid</a></li>
+                  <li><a href="event-single.html">Event Single</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Pages <i class="ti-angle-down"></i></a>
+                <ul class="dl-submenu">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="price-plan.html">Price Plan</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a href="#">Teacher <i class="ti-angle-right right"></i></a>
+                    <ul class="dl-submenu">
+                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
+                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="404-page.html">404 Page</a></li>
+                  <li><a href="coming-soon.html">Coming Soon</a></li>
+                </ul>
+              </li>
+              <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+          </div><!-- Dl Menu Wrap End -->
+        </div>
+      </nav>
+      <!-- Navigation Wrap End -->
+    </header><!-- Header Wrap End -->
+
     <!-- Slider Wrap Start -->
     <div class="keo_breadcrumb_bg full_width">
       <div class="container">
@@ -13,7 +243,7 @@
     <section class="keo_sub_banner keo_bg_img p_relative">
       <div class="container">
         <div class="keo_sub_banner_des text-center p_relative">
-          <h3 class="white_text">Formulir Pendaftaran </h3>
+          <h3 class="white_text">Formulir Pendaftaran Peserta Didik Tahun Ajaran 2019/2020</h3>
         </div>
       </div>
     </section><!-- Slider Wrap End -->
@@ -27,7 +257,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Formulir Pendaftaran Peserta Didik Tahun Ajaran 2019/2020</h2>
+              <center>
+              <h2>Isi data peserta didik baru dan orang tua</h2>
+              </center>
             </div>
           </div>
 
@@ -50,11 +282,11 @@
                     <div class="col-12">
                       <div class="card">
                         <div class="card-header">
-                          <h4 class="card-title">Validation Example</h4>
+                          <h4 class="card-title"></h4>
                         </div>
                         <div class="card-content">
                           <div class="card-body">
-                            <form action="#" class="steps-validation wizard-circle">
+                            <form action="<?php base_url() ?>pendaftaran/create_act" class="steps-validation wizard-circle" method="POST">
                               <!-- Step 1 -->
                               <h6><i class="step-icon feather icon-home"></i> Step 1</h6>
 
@@ -67,7 +299,7 @@
                                       <label for="namaSiswa">
                                         Nama Lengkap
                                       </label>
-                                      <input type="text" class="form-control required" id="namaSiswa" name="namaSiswa">
+                                      <input type="text" class="form-control required" id="nama_siswa" name="nama_siswa">
                                     </div>
                                   </div>
                                 </div>
@@ -93,7 +325,7 @@
                                       <label for="tempatLahir">
                                         Tempat Lahir
                                       </label>
-                                      <input type="text" class="form-control required" id="tempatLahir" name="tempatLahir">
+                                      <input type="text" class="form-control required" id="tempatLahir" name="tempat_lahir">
                                     </div>
                                   </div>
 
@@ -102,7 +334,7 @@
                                       <label for="tanggal Lahir">
                                         Tanggal Lahir
                                       </label>
-                                      <input type='text' class="form-control pickadate" required />
+                                      <input type='text' class="form-control pickadate" name="tanggal_lahir" required />
                                     </div>
                                   </div>
                                 </div>
@@ -115,7 +347,7 @@
                                       <label for="nomorNik">
                                         Nomor NIK
                                       </label>
-                                      <input type="number" class="form-control required" id="nomorNik" name="nomorNik">
+                                      <input type="number" class="form-control required" id="no_induk" name="no_induk">
                                     </div>
                                   </div>
                                   <div class="col-md-3">
@@ -123,7 +355,7 @@
                                       <label for="nomorKk">
                                         Nomor Kartu Keluarga
                                       </label>
-                                      <input type="number" class="form-control required" id="nomorKk" name="nomorKk">
+                                      <input type="number" class="form-control required" id="no_kk" name="no_kk">
                                     </div>
                                   </div>
                                 </div>
@@ -148,7 +380,7 @@
                                               <li class="d-inline-block mr-2">
                                                 <fieldset>
                                                   <div class="vs-radio-con">
-                                                    <input type="radio" name="vueradio" checked value="false" required>
+                                                    <input type="radio" name="jenis_kelamin" checked value="L" required>
                                                     <span class="vs-radio">
                                                       <span class="vs-radio--border"></span>
                                                       <span class="vs-radio--circle"></span>
@@ -160,7 +392,7 @@
                                               <li class="d-inline-block mr-2">
                                                 <fieldset>
                                                   <div class="vs-radio-con">
-                                                    <input type="radio" name="vueradio" value="false" required>
+                                                    <input type="radio" name="jenis_kelamin" value="P" required>
                                                     <span class="vs-radio">
                                                       <span class="vs-radio--border"></span>
                                                       <span class="vs-radio--circle"></span>
@@ -186,7 +418,7 @@
                                       <label for="alamatSiswa">
                                         Alamat Siswa
                                       </label>
-                                      <input type="text" class="form-control required" id="alamatSiswa" name="alamatSiswa">
+                                      <input type="text" class="form-control required" id="alamat" name="alamat">
                                     </div>
                                   </div>
                                 </div>
@@ -200,10 +432,10 @@
                                         Status Rumah
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="statusRumah">
-                                          <option>Rumah Pribadi</option>
-                                          <option>Rumah Keluarga</option>
-                                          <option>Rumah Sewa</option>
+                                        <select class="form-control" id="statusRumah" name="status_tempat_tinggal">
+                                          <option value="Rumah Pribadi">Rumah Pribadi</option>
+                                          <option value="Rumah Keluarga">Rumah Keluarga</option>
+                                          <option value="Rumah Sewa">Rumah Sewa</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -218,7 +450,7 @@
                                       <label for="nomorHp">
                                         Nomor Telepon
                                       </label>
-                                      <input type="number" class="form-control required" id="nomorHp" name="nomorHp">
+                                      <input type="number" class="form-control required" id="no_telp" name="no_telp">
                                     </div>
                                   </div>
                                 </div>
@@ -231,7 +463,7 @@
                                       <label for="kewarganegaraan">
                                         Kewarganegaraan
                                       </label>
-                                      <input type="text" class="form-control required" id="kewarganegaraan" name="kewarganegaraan">
+                                      <input type="text" class="form-control required" id="warga_negara" name="warga_negara">
                                     </div>
                                   </div>
                                 </div>
@@ -245,13 +477,13 @@
                                         Agama
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="agamaSiswa">
-                                          <option>Islam</option>
-                                          <option>Katolik</option>
-                                          <option>Protestan</option>
-                                          <option>Buddha</option>
-                                          <option>Hindu</option>
-                                          <option>Khonghucu</option>
+                                        <select class="form-control" id="agama" name="agama">
+                                          <option value="Islam">Islam</option>
+                                          <option value="Katolik">Katolik</option>
+                                          <option value="Protestan">Protestan</option>
+                                          <option value="Buddha">Buddha</option>
+                                          <option value="Hindu">Hindu</option>
+                                          <option value="Konghucu">Khonghucu</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -270,7 +502,7 @@
                                       <label for="namaAyah">
                                         Nama Ayah
                                       </label>
-                                      <input type="text" class="form-control required" id="namaAyah" name="namaAyah">
+                                      <input type="text" class="form-control required" id="nama_ayah" name="nama_ayah">
                                     </div>
                                   </div>
                                 </div>
@@ -283,7 +515,7 @@
                                       <label for="tempatLahirAyah">
                                         Tempat Lahir
                                       </label>
-                                      <input type="text" class="form-control required" id="tempatLahirAyah" name="tempatLahirAyah">
+                                      <input type="text" class="form-control required" id="tempatLahirAyah" name="tempat_lahir_ayah">
                                     </div>
                                   </div>
 
@@ -292,7 +524,7 @@
                                       <label for="tanggalLahirAyah">
                                         Tanggal Lahir
                                       </label>
-                                      <input type='text' class="form-control pickadate" required />
+                                      <input type='text' class="form-control pickadate" name="tanggal_lahir_ayah" required />
                                     </div>
                                   </div>
                                 </div>
@@ -305,7 +537,7 @@
                                       <label for="nomorNikAyah">
                                         Nomor NIK
                                       </label>
-                                      <input type="number" class="form-control required" id="nomorNikAyah" name="nomorNikAyah">
+                                      <input type="number" class="form-control required" id="nomorNikAyah" name="nik_ayah">
                                     </div>
                                   </div>
                                 </div>
@@ -319,13 +551,13 @@
                                         Agama
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="agamaAyah">
-                                          <option>Islam</option>
-                                          <option>Katolik</option>
-                                          <option>Protestan</option>
-                                          <option>Buddha</option>
-                                          <option>Hindu</option>
-                                          <option>Khonghucu</option>
+                                        <select class="form-control" id="agama_ayah" name="agama_ayah">
+                                          <option value="Islam">Islam</option>
+                                          <option value="Katolik">Katolik</option>
+                                          <option value="Protestan">Protestan</option>
+                                          <option value="Buddha">Buddha</option>
+                                          <option value="Hindu">Hindu</option>
+                                          <option value="Konghucu">Khonghucu</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -340,7 +572,7 @@
                                       <label for="pendTerakhirAyah">
                                         Pendidkan Terakhir
                                       </label>
-                                      <input type="text" class="form-control required" id="pendTerakhirAyah" name="pendTerakhirAyah">
+                                      <input type="text" class="form-control required" id="pendTerakhirAyah" name="pendidikan_terakhir_ayah">
                                     </div>
                                   </div>
                                 </div>
@@ -353,7 +585,7 @@
                                       <label for="pekerjaanAyah">
                                         Pekerjaan Ayah
                                       </label>
-                                      <input type="text" class="form-control required" id="pekerjaanAyah" name="pekerjaanAyah">
+                                      <input type="text" class="form-control required" id="pekerjaanAyah" name="pekerjaan_ayah">
                                     </div>
                                   </div>
                                 </div>
@@ -367,11 +599,11 @@
                                         Jumlah Penghasilan
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="penghasilanAyah">
-                                          <option>Dibawah Rp1 juta</option>
-                                          <option>Rp1 juta - Rp2 juta</option>
-                                          <option>Rp2 juta - Rp5 juta</option>
-                                          <option>Diatas Rp5 juta</option>
+                                        <select class="form-control" id="jmlh_penghasilan_ayah" name="jmlh_penghasilan_ayah">
+                                          <option value="0 juta - 1 juta">Dibawah Rp1 juta</option>
+                                          <option value="1 juta - 2 juta">Rp1 juta - Rp2 juta</option>
+                                          <option value="2 juta - 5 juta">Rp2 juta - Rp5 juta</option>
+                                          <option value="5 juta ke atas">Diatas Rp5 juta</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -386,7 +618,7 @@
                                       <label for="alamatAyah">
                                         Alamat Ayah
                                       </label>
-                                      <input type="text" class="form-control required" id="alamatAyah" name="alamatAyah">
+                                      <input type="text" class="form-control required" id="alamatAyah" name="alamat_ayah">
                                     </div>
                                   </div>
                                 </div>
@@ -402,7 +634,7 @@
                                       <label for="namaIbu">
                                         Nama Ibu
                                       </label>
-                                      <input type="text" class="form-control required" id="namaIbu" name="namaIbu">
+                                      <input type="text" class="form-control required" id="namaIbu" name="nama_ibu">
                                     </div>
                                   </div>
                                 </div>
@@ -415,7 +647,7 @@
                                       <label for="tempatLahirIbu">
                                         Tempat Lahir
                                       </label>
-                                      <input type="text" class="form-control required" id="tempatLahirIbu" name="tempatLahirIbu">
+                                      <input type="text" class="form-control required" id="tempatLahirIbu" name="tempat_lahir_ibu">
                                     </div>
                                   </div>
 
@@ -424,7 +656,7 @@
                                       <label for="tanggalLahirIbu">
                                         Tanggal Lahir
                                       </label>
-                                      <input type='text' class="form-control pickadate" required />
+                                      <input type='text' class="form-control pickadate" name="tanggal_lahir_ibu" required />
                                     </div>
                                   </div>
                                 </div>
@@ -437,7 +669,7 @@
                                       <label for="nomorNikIbu">
                                         Nomor NIK
                                       </label>
-                                      <input type="number" class="form-control required" id="nomorNikIbu" name="nomorNikIbu">
+                                      <input type="number" class="form-control required" id="nomorNikIbu" name="nik_ibu">
                                     </div>
                                   </div>
                                 </div>
@@ -451,13 +683,13 @@
                                         Agama
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="agamaIbu">
-                                          <option>Islam</option>
-                                          <option>Katolik</option>
-                                          <option>Protestan</option>
-                                          <option>Buddha</option>
-                                          <option>Hindu</option>
-                                          <option>Khonghucu</option>
+                                        <select class="form-control" id="agamaIbu" name="agama_ibu">
+                                          <option value="Islam">Islam</option>
+                                          <option value="Katolik">Katolik</option>
+                                          <option value="Protestan">Protestan</option>
+                                          <option value="Buddha">Buddha</option>
+                                          <option value="Hindu">Hindu</option>
+                                          <option value="Konghucu">Khonghucu</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -472,7 +704,7 @@
                                       <label for="pendTerakhirIbu">
                                         Pendidikan Terakhir
                                       </label>
-                                      <input type="text" class="form-control required" id="pendTerakhirIbu" name="pendTerakhirIbu">
+                                      <input type="text" class="form-control required" id="pendTerakhirIbu" name="pendidikan_terakhir_ibu">
                                     </div>
                                   </div>
                                 </div>
@@ -485,7 +717,7 @@
                                       <label for="pekerjaanIbu">
                                         Pekerjaan Ibu
                                       </label>
-                                      <input type="text" class="form-control required" id="pekerjaanIbu" name="pekerjaanIbu">
+                                      <input type="text" class="form-control required" id="pekerjaanIbu" name="pekerjaan_ibu">
                                     </div>
                                   </div>
                                 </div>
@@ -499,11 +731,11 @@
                                         Jumlah Penghasilan
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="penghasilanIbu">
-                                          <option>Dibawah Rp1 juta</option>
-                                          <option>Rp1 juta - Rp2 juta</option>
-                                          <option>Rp2 juta - Rp5 juta</option>
-                                          <option>Diatas Rp5 juta</option>
+                                        <select class="form-control" id="penghasilanIbu" name="jmlh_penghasilan_ibu">
+                                          <option value="0 juta - 1 juta">Dibawah Rp1 juta</option>
+                                          <option value="1 juta - 2 juta">Rp1 juta - Rp2 juta</option>
+                                          <option value="2 juta - 5 juta">Rp2 juta - Rp5 juta</option>
+                                          <option value="5 juta ke atas">Diatas Rp5 juta</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -518,7 +750,7 @@
                                       <label for="alamatIbu">
                                         Alamat Ibu
                                       </label>
-                                      <input type="text" class="form-control required" id="alamatIbu" name="alamatIbu">
+                                      <input type="text" class="form-control required" id="alamatIbu" name="alamat_ibu">
                                     </div>
                                   </div>
                                 </div>
@@ -537,7 +769,7 @@
                                       <label for="umurSiswa">
                                         Umur (Tahun)
                                       </label>
-                                      <input type="text" class="form-control required" id="umurSiswa" name="umurSiswa" readonly="readonly" value="You can't update me :P">
+                                      <input type="text" class="form-control required" id="umur_siswa" name="umur_siswa">
                                     </div>
                                   </div>
                                 </div>
@@ -550,7 +782,7 @@
                                       <label for="tinggiBadan">
                                         Tinggi Badan (cm)
                                       </label>
-                                      <input type="number" class="form-control required" id="tinggiBadan" name="tinggiBadan">
+                                      <input type="number" class="form-control required" id="tinggiBadan" name="tinggi_badan">
                                     </div>
                                   </div>
                                   <div class="col-md-3">
@@ -558,7 +790,7 @@
                                       <label for="beratBadan">
                                         Berat Badan (kg)
                                       </label>
-                                      <input type="number" class="form-control required" id="beratBadan" name="beratBadan">
+                                      <input type="number" class="form-control required" id="beratBadan" name="berat_badan">
                                     </div>
                                   </div>
                                 </div>
@@ -571,7 +803,7 @@
                                       <label for="jarakSekolah">
                                         Jarak Rumah ke Sekolah
                                       </label>
-                                      <input type="number" class="form-control required" id="jarakSekolah" name="jarakSekolah">
+                                      <input type="number" class="form-control required" id="jarakSekolah" name="jarak_sekolah">
                                     </div>
                                   </div>
                                 </div>
@@ -584,7 +816,7 @@
                                       <label for="anakKe">
                                         Anak Ke-
                                       </label>
-                                      <input type="number" class="form-control required" id="anakKe" name="anakKe">
+                                      <input type="number" class="form-control required" id="anakKe" name="anak_ke">
                                     </div>
                                   </div>
                                   <div class="col-md-3">
@@ -592,7 +824,7 @@
                                       <label for="jumlahSaudara">
                                         Jumlah Saudara Kandung
                                       </label>
-                                      <input type="number" class="form-control required" id="jumlahSaudara" name="jumlahSaudara">
+                                      <input type="number" class="form-control required" id="jumlahSaudara" name="jumlah_saudara">
                                     </div>
                                   </div>
                                 </div>
@@ -607,12 +839,12 @@
                                         Ukuran Seragam
                                       </label>
                                       <fieldset class="form-group">
-                                        <select class="form-control" id="ukuranSeragam">
-                                          <option>4 (S)</option>
-                                          <option>5 (M)</option>
-                                          <option>6 (L)</option>
-                                          <option>7 (XL)</option>
-                                          <option>7XL (XXXL)</option>
+                                        <select class="form-control" id="ukuranSeragam" name="ukuran_seragam">
+                                          <option value="4 (S)">4 (S)</option>
+                                          <option value="5 (M)">5 (M)</option>
+                                          <option value="6 (L)">6 (L)</option>
+                                          <option value="7 (XL)">7 (XL)</option>
+                                          <option value="7XL (XXXL)">7XL (XXXL)</option>
                                         </select>
                                       </fieldset>
                                     </div>
@@ -627,23 +859,10 @@
                                       <label for="riwayatPenyakit">
                                         Penyakit yang Pernah Diderita
                                       </label>
-                                      <input type="text" class="form-control required" id="riwayatPenyakit" name="riwayatPenyakit">
+                                      <input type="text" class="form-control required" id="riwayatPenyakit" name="riwayat_penyakit">
                                     </div>
                                   </div>
                                 </div>
-                                <div class="row">
-                                <div class="col-md-3">
-                                </div>
-                                <div class="col-md-3">
-                                  <div class="form-group">
-                                    <label for="riwayatPenyakit">
-                                      Penyakit yang Pernah Diderita
-                                    </label>
-                                    <input type="text" class="form-control required" id="riwayatPenyakit" name="riwayatPenyakit">
-
-                                  </div>
-                                </div>
-                              </div>
                                 <div class="row">
                                   <div class="col-md-3">
                                   </div>
@@ -652,15 +871,13 @@
                                       <label for="jarakSekolah">
                                         Pas Foto
                                       </label>
-                                      <input type="file" class="form-control required" id="pasFoto" name="pasFoto">
+                                      <input type="text" class="form-control required" id="foto_siswa" name="foto_siswa">
                                     </div>
                                   </div>
                                 </div>
                           </div>
-
-
-
-
+                          <button type="submit" class="btn btn-primary mr-1 mb-1 waves-effect
+           waves-light float-right">Simpan</button>
                           </fieldset>
                           </form>
                         </div>

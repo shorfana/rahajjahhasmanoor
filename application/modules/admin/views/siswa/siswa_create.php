@@ -95,6 +95,54 @@
                   <input type="text" name="foto_siswa" class="form-control">
                 </div>
               </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">umur</label>
+                <div class="col-sm-10">
+                  <input type="text" name="umur" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">tinggi_badan</label>
+                <div class="col-sm-10">
+                  <input type="text" name="tinggi_badan" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">berat_badan</label>
+                <div class="col-sm-10">
+                  <input type="text" name="berat_badan" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">jarak_sekolah</label>
+                <div class="col-sm-10">
+                  <input type="text" name="jarak_sekolah" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">anak_ke</label>
+                <div class="col-sm-10">
+                  <input type="text" name="anak_ke" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">jumlah_saudara</label>
+                <div class="col-sm-10">
+                  <input type="text" name="jumlah_saudara" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">ukuran_seragam</label>
+                <div class="col-sm-10">
+                  <input type="text" name="ukuran_seragam" class="form-control">
+                </div>
+              </div>
+						<div class="form-group row">
+                <label class="col-sm-2 col-form-label">riwayat_penyakit</label>
+                <div class="col-sm-10">
+                  <input type="text" name="riwayat_penyakit" class="form-control">
+                </div>
+              </div>
 </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary mr-1 mb-1 waves-effect

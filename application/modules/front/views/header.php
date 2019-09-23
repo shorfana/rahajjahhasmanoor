@@ -55,7 +55,7 @@
                           <li>
                               <a href="javascript:void(0)">Profil <i class="ti-angle-down"></i></a>
                               <ul class="time">
-                                  <li><a href="<?php echo base_url() ?>front/about">Sejarah Singkat</a></li>
+                                  <li><a href="<?php echo base_url() ?>about">Sejarah Singkat</a></li>
                                   <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
                               </ul>
                           </li>

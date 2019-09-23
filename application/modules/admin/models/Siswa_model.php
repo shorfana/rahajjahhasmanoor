@@ -31,6 +31,14 @@
 							$this->column_order[]='no_kk';
 							$this->column_order[]='no_telp';
 							$this->column_order[]='foto_siswa';
+							$this->column_order[]='umur';
+							$this->column_order[]='tinggi_badan';
+							$this->column_order[]='berat_badan';
+							$this->column_order[]='jarak_sekolah';
+							$this->column_order[]='anak_ke';
+							$this->column_order[]='jumlah_saudara';
+							$this->column_order[]='ukuran_seragam';
+							$this->column_order[]='riwayat_penyakit';
 							$this->column_search[]='id_ortu';
 							$this->column_search[]='no_induk';
 							$this->column_search[]='nama_siswa';
@@ -46,6 +54,14 @@
 							$this->column_search[]='no_kk';
 							$this->column_search[]='no_telp';
 							$this->column_search[]='foto_siswa';
+							$this->column_search[]='umur';
+							$this->column_search[]='tinggi_badan';
+							$this->column_search[]='berat_badan';
+							$this->column_search[]='jarak_sekolah';
+							$this->column_search[]='anak_ke';
+							$this->column_search[]='jumlah_saudara';
+							$this->column_search[]='ukuran_seragam';
+							$this->column_search[]='riwayat_penyakit';
 							
         }
 

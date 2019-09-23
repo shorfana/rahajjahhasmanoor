@@ -107,6 +107,18 @@
                 <input type="text" name="tempat_lahir_ibu" class="form-control" value="<?php echo $dataedit->tempat_lahir_ibu?>">
               </div>
               </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">alamat_ayah</label>
+              <div class="col-sm-10">
+                <input type="text" name="alamat_ayah" class="form-control" value="<?php echo $dataedit->alamat_ayah?>">
+              </div>
+              </div>
+						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">alamat_ibu</label>
+              <div class="col-sm-10">
+                <input type="text" name="alamat_ibu" class="form-control" value="<?php echo $dataedit->alamat_ibu?>">
+              </div>
+              </div>
 
         </div>
         <input type="hidden" id="deleteFiles" name="deleteFiles">

@@ -32,6 +32,8 @@
 							$this->column_order[]='pendidikan_terakhir_ibu';
 							$this->column_order[]='tempat_lahir_ayah';
 							$this->column_order[]='tempat_lahir_ibu';
+							$this->column_order[]='alamat_ayah';
+							$this->column_order[]='alamat_ibu';
 							$this->column_search[]='nik_ayah';
 							$this->column_search[]='nama_ayah';
 							$this->column_search[]='nik_ibu';
@@ -48,6 +50,8 @@
 							$this->column_search[]='pendidikan_terakhir_ibu';
 							$this->column_search[]='tempat_lahir_ayah';
 							$this->column_search[]='tempat_lahir_ibu';
+							$this->column_search[]='alamat_ayah';
+							$this->column_search[]='alamat_ibu';
 							
         }
 

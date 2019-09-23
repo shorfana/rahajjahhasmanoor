@@ -62,6 +62,8 @@
 							$row[] = $Ortu_model->pendidikan_terakhir_ibu;
 							$row[] = $Ortu_model->tempat_lahir_ayah;
 							$row[] = $Ortu_model->tempat_lahir_ibu;
+							$row[] = $Ortu_model->alamat_ayah;
+							$row[] = $Ortu_model->alamat_ibu;
 							
               $row[] ="
               <a href='ortu/edit/$Ortu_model->id_ortu'><i class='m-1 feather icon-edit-2'></i></a>
@@ -129,6 +131,8 @@ public function create_action()
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
 					'tempat_lahir_ayah' => $this->input->post('tempat_lahir_ayah',TRUE),
 					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
+					'alamat_ayah' => $this->input->post('alamat_ayah',TRUE),
+					'alamat_ibu' => $this->input->post('alamat_ibu',TRUE),
 					
 );
 
@@ -165,6 +169,8 @@ public function create_action()
 					'pendidikan_terakhir_ibu' => $this->input->post('pendidikan_terakhir_ibu',TRUE),
 					'tempat_lahir_ayah' => $this->input->post('tempat_lahir_ayah',TRUE),
 					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
+					'alamat_ayah' => $this->input->post('alamat_ayah',TRUE),
+					'alamat_ibu' => $this->input->post('alamat_ibu',TRUE),
 					
 );
 
@@ -206,6 +212,8 @@ $this->form_validation->set_rules('pendidikan_terakhir_ayah', 'pendidikan_terakh
 $this->form_validation->set_rules('pendidikan_terakhir_ibu', 'pendidikan_terakhir_ibu', 'trim|required');
 $this->form_validation->set_rules('tempat_lahir_ayah', 'tempat_lahir_ayah', 'trim|required');
 $this->form_validation->set_rules('tempat_lahir_ibu', 'tempat_lahir_ibu', 'trim|required');
+$this->form_validation->set_rules('alamat_ayah', 'alamat_ayah', 'trim|required');
+$this->form_validation->set_rules('alamat_ibu', 'alamat_ibu', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_ortu', 'id_ortu', 'trim');

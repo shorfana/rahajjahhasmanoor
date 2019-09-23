@@ -61,6 +61,14 @@
 							$row[] = $Siswa_model->no_kk;
 							$row[] = $Siswa_model->no_telp;
 							$row[] = $Siswa_model->foto_siswa;
+							$row[] = $Siswa_model->umur;
+							$row[] = $Siswa_model->tinggi_badan;
+							$row[] = $Siswa_model->berat_badan;
+							$row[] = $Siswa_model->jarak_sekolah;
+							$row[] = $Siswa_model->anak_ke;
+							$row[] = $Siswa_model->jumlah_saudara;
+							$row[] = $Siswa_model->ukuran_seragam;
+							$row[] = $Siswa_model->riwayat_penyakit;
 							
               $row[] ="
               <a href='siswa/edit/$Siswa_model->nik_siswa'><i class='m-1 feather icon-edit-2'></i></a>
@@ -127,6 +135,14 @@ public function create_action()
 					'no_kk' => $this->input->post('no_kk',TRUE),
 					'no_telp' => $this->input->post('no_telp',TRUE),
 					'foto_siswa' => $this->input->post('foto_siswa',TRUE),
+					'umur' => $this->input->post('umur',TRUE),
+					'tinggi_badan' => $this->input->post('tinggi_badan',TRUE),
+					'berat_badan' => $this->input->post('berat_badan',TRUE),
+					'jarak_sekolah' => $this->input->post('jarak_sekolah',TRUE),
+					'anak_ke' => $this->input->post('anak_ke',TRUE),
+					'jumlah_saudara' => $this->input->post('jumlah_saudara',TRUE),
+					'ukuran_seragam' => $this->input->post('ukuran_seragam',TRUE),
+					'riwayat_penyakit' => $this->input->post('riwayat_penyakit',TRUE),
 					
 );
 
@@ -162,6 +178,14 @@ public function create_action()
 					'no_kk' => $this->input->post('no_kk',TRUE),
 					'no_telp' => $this->input->post('no_telp',TRUE),
 					'foto_siswa' => $this->input->post('foto_siswa',TRUE),
+					'umur' => $this->input->post('umur',TRUE),
+					'tinggi_badan' => $this->input->post('tinggi_badan',TRUE),
+					'berat_badan' => $this->input->post('berat_badan',TRUE),
+					'jarak_sekolah' => $this->input->post('jarak_sekolah',TRUE),
+					'anak_ke' => $this->input->post('anak_ke',TRUE),
+					'jumlah_saudara' => $this->input->post('jumlah_saudara',TRUE),
+					'ukuran_seragam' => $this->input->post('ukuran_seragam',TRUE),
+					'riwayat_penyakit' => $this->input->post('riwayat_penyakit',TRUE),
 					
 );
 
@@ -202,6 +226,14 @@ $this->form_validation->set_rules('agama', 'agama', 'trim|required');
 $this->form_validation->set_rules('no_kk', 'no_kk', 'trim|required');
 $this->form_validation->set_rules('no_telp', 'no_telp', 'trim|required');
 $this->form_validation->set_rules('foto_siswa', 'foto_siswa', 'trim|required');
+$this->form_validation->set_rules('umur', 'umur', 'trim|required');
+$this->form_validation->set_rules('tinggi_badan', 'tinggi_badan', 'trim|required');
+$this->form_validation->set_rules('berat_badan', 'berat_badan', 'trim|required');
+$this->form_validation->set_rules('jarak_sekolah', 'jarak_sekolah', 'trim|required');
+$this->form_validation->set_rules('anak_ke', 'anak_ke', 'trim|required');
+$this->form_validation->set_rules('jumlah_saudara', 'jumlah_saudara', 'trim|required');
+$this->form_validation->set_rules('ukuran_seragam', 'ukuran_seragam', 'trim|required');
+$this->form_validation->set_rules('riwayat_penyakit', 'riwayat_penyakit', 'trim|required');
 
 
 	$this->form_validation->set_rules('nik_siswa', 'nik_siswa', 'trim');
