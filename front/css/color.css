@@ -53,7 +53,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 .keo_choose_accordian .card-header>h5:hover span,
 .keo_post_text>p:hover
 {
-	color:#3f51b5;	
+	color:#3f51b5;
 }
 /*
 	============================================================
@@ -95,7 +95,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 .keo_chkbox input:checked ~ .checkmark,
 .hidden-bar .gt_side_social_icons ul li:hover a
 {
-	border-color:#3f51b5;	
+	border-color:#3f51b5;
 }
 /*
 	  ============================================================
@@ -147,7 +147,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 	-webkit-transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-o-transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;	
+	-moz-transition:all 0.3s ease-in-out;
 }
 .time2,
 .keo_teacher_wrap>figure:before,
@@ -183,7 +183,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 {
 	transform:scale(1.3) rotateZ(-6deg);
 	-moz-transform:scale(1.3) rotateZ(-6deg);
-	-webkit-transform:scale(1.3) rotateZ(-6deg);	
+	-webkit-transform:scale(1.3) rotateZ(-6deg);
 }
 
 /*
@@ -196,7 +196,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 {
 	transform:scale(1);
 	-moz-transform:scale(1);
-	-webkit-transform:scale(1);	
+	-webkit-transform:scale(1);
 }
 
 /*
@@ -210,7 +210,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 }
-	
+
 	/*
 	  ============================================================
 		   Rotation Effect in Negative
@@ -230,7 +230,7 @@ Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
 */
 
 {
-	border-bottom:10px solid #1b8bf9;	
+	border-bottom:10px solid #1b8bf9;
 }
 
 

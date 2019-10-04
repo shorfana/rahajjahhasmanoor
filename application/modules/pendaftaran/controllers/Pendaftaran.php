@@ -53,7 +53,7 @@ class Pendaftaran extends MY_Controller{
 
     if ($insert_data_ortu) {
         $data_siswa = array(
-          'nik_siswa' => $this->input->post('no_induk');
+          // 'nik_siswa' => $this->input->post('no_induk'),
           'id_ortu' => $id_orangtua,
           'no_induk' => $this->input->post('no_induk',TRUE),
           'nama_siswa' => $this->input->post('nama_siswa',TRUE),

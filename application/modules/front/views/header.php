@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="keo_logo text-center left">
                         <a href="<?php echo base_url() ?>">
-                            <img src="<?php echo base_url() ?>front/images/logo.png" alt="">
+                            <img src="<?php echo base_url() ?>front/images/logotk.png" alt="">
                         </a>
                     </div>
                     <div class="keo_nav text-center left">
@@ -134,5 +134,6 @@
                     </div><!-- Dl Menu Wrap End -->
                 </div>
             </nav>
+            
             <!-- Navigation Wrap End -->
         </header><!-- Header Wrap End -->

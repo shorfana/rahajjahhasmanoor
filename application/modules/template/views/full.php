@@ -9,7 +9,7 @@
     <meta name="description" content="Kostlab admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Kostlab admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>KostLab</title>
+    <title>RA Hajjah Hasmah Noor</title>
     <link rel="apple-touch-icon" href="<?= base_url()?>assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
@@ -58,7 +58,7 @@
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item mr-auto"><a class="navbar-brand" href="#">
                         <div class="brand-logo"></div>
-                        <h2 class="brand-text mb-0">KostLab</h2>
+                        <h2 class="brand-text mb-0">RA HHMN</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block primary" data-ticon="icon-disc"></i></a></li>
             </ul>
@@ -88,15 +88,12 @@
                                 <!-- li.nav-item.mobile-menu.d-xl-none.mr-auto-->
                                 <!--   a.nav-link.nav-menu-main.menu-toggle.hidden-xs(href='#')-->
                                 <!--     i.ficon.feather.icon-menu-->
-                                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="sk-layout-1-column.html" data-toggle="tooltip" data-placement="top" title="1-Column"><i class="ficon feather icon-file-text"></i></a></li>
-                                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="sk-layout-2-columns.html" data-toggle="tooltip" data-placement="top" title="2-Columns"><i class="ficon feather icon-sidebar"></i></a></li>
-                                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="sk-layout-static.html" data-toggle="tooltip" data-placement="top" title="Static Layout"><i class="ficon feather icon-sliders"></i></a></li>
                             </ul>
                             <ul class="nav navbar-nav">
                                 <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon feather icon-star warning"></i></a>
                                     <div class="bookmark-input search-input">
                                         <div class="bookmark-input-icon"><i class="feather icon-search primary"></i></div>
-                                        <input class="form-control input" type="text" placeholder="Explore Kostlab..." tabindex="0" data-search="starter-list" />
+                                        <input class="form-control input" type="text" placeholder="Explore RA Hajjah Hasmah Noor..." tabindex="0" data-search="starter-list" />
                                         <ul class="search-list"></ul>
                                     </div>
                                     <!-- select.bookmark-select-->
@@ -107,7 +104,6 @@
                             </ul>
                         </div>
                         <ul class="nav navbar-nav float-right">
-                            <li class="dropdown dropdown-language nav-item"><a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language">English</span></a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown-flag"><a class="dropdown-item" href="#" data-language="en"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#" data-language="fr"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#" data-language="de"><i class="flag-icon flag-icon-de"></i> German</a><a class="dropdown-item" href="#" data-language="pt"><i class="flag-icon flag-icon-pt"></i> Portuguese</a></div>
                             </li>
                             <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i class="ficon feather icon-maximize"></i></a></li>
@@ -193,33 +189,6 @@
         <!-- END: Header-->
 
         <div class="content-wrapper">
-            <div class="content-header row">
-                <div class="content-header-left col-md-9 col-12 mb-2">
-                    <div class="row breadcrumbs-top">
-                        <div class="col-12">
-                            <h2 class="content-header-title float-left mb-0">Floating Navbar</h2>
-                            <div class="breadcrumb-wrapper col-12">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item"><a href="#">Starter Kit</a>
-                                    </li>
-                                    <li class="breadcrumb-item active">Floating Navbar
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
-                    <div class="form-group breadcrum-right">
-                        <div class="dropdown">
-                            <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="feather icon-settings"></i></button>
-                            <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#">Chat</a><a class="dropdown-item" href="#">Email</a><a class="dropdown-item" href="#">Calendar</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="content-body">
               <?php if(isset($content)){$this->load->view($content);} ?>
             </div>

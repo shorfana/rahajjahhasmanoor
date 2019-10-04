@@ -2,6 +2,10 @@
             <ul class="navigation navigation-main" id="sidebar" data-menu="menu-navigation">
                 <li class="nav-item"><a href="<?= base_url()?>admin"><i class="feather icon-home"></i><span class="menu-title" data-i18n="">Dashboard</span></a>
                 </li>
+                <li class="nav-item"><a href="<?= base_url()?>admin/pembagian_kelas"><i class="feather icon-server"></i><span class="menu-title" data-i18n="">Pembagian Kelas</span></a>
+                </li>
+                <!-- <li class="nav-item"><a href="<?php base_url() ?>admin/pembagian_kelas"><i class="feather icon-server"></i><span class="menu-title" data-i18n="">Pembagian Kelas</span></a>
+                </li> -->
                 <!-- <li class="nav-item"><a href="<?= base_url()?>admin/guru"><i class="feather icon-home"></i><span class="menu-title" data-i18n="">Data Guru</span></a>
                 </li>
                 <li class="nav-item"><a href="<?= base_url()?>admin/ortu"><i class="feather icon-home"></i><span class="menu-title" data-i18n="">Data Orang Tua </span></a>
@@ -19,7 +23,7 @@
                       </li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#"><i class="feather icon-server"></i><span class="menu-title" data-i18n="">Pilih Kelas</span></a>
-                </li>
+
             </ul>
+
         </div>

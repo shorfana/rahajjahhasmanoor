@@ -85,146 +85,96 @@
       <!-- Top Wrap End -->
       <!-- Navigation Wrap Start -->
       <nav class="keo_nav_outer keo_nav2_style theme_bg full_width">
-        <div class="container">
-          <div class="keo_logo text-center left">
-            <a href="<?php base_url() ?>">
-              <img src="<?php base_url() ?>front/images/logo.png" alt="">
-            </a>
+          <div class="container">
+              <div class="keo_logo text-center left">
+                  <a href="<?php echo base_url() ?>">
+                      <img src="<?php echo base_url() ?>front/images/logotk.png" alt="">
+                  </a>
+              </div>
+              <div class="keo_nav text-center left">
+                  <ul>
+                    <li><a href="<?php echo base_url() ?>">Home</a></li>
+                    <li>
+                        <a href="javascript:void(0)">Profil <i class="ti-angle-down"></i></a>
+                        <ul class="time">
+                            <li><a href="<?php echo base_url() ?>about">Sejarah Singkat</a></li>
+                            <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Media <i class="ti-angle-down"></i></a>
+                        <ul class="time">
+                            <li><a href="<?php echo base_url() ?>front/gallery">Galeri</a></li>
+                            <li><a href="<?php echo base_url() ?>front/page404">Video</a></li>
+                        </ul>
+                    </li>
+                      <li>
+                          <a href="javascript:void(0)">Akademik <i class="ti-angle-down"></i></a>
+                          <ul class="time">
+                              <li><a href="<?php echo base_url() ?>front/classListing">Kelas</a></li>
+                              <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
+                      <li><a href="<?php echo base_url() ?>front/eventListing">Acara</a></li>
+                      <li><a href="<?php echo base_url() ?>front/contact">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="keo_nav_ui right">
+                  <ul class="right">
+                      <li class="search search-fld">
+                          <i class="ti-search"></i>
+                      </li>
+                      <!-- <li class="cart">
+                          <img class="left" src="images/cart-icon.png" alt="">
+                          <div class="cart_des">
+                              <span class="item d-block">3 items</span>
+                              <span class="price">$168.00</span>
+                          </div>
+                      </li> -->
+                  </ul>
+                  <div class="search-wrapper-area time">
+                      <form class="search-area time">
+                          <input type="text" class="white_ph" placeholder="Cari Apa?" />
+                          <input type="submit" value="Go" />
+                      </form>
+                      <span class="keo_search_remove_btn time">
+                          <i class="ti-close"></i>
+                      </span>
+                  </div>
+              </div>
+              <!-- Dl Menu Wrap Start -->
+              <div class="keo_index2 dl-menuwrapper" id="dl-menu">
+                  <button class="dl-trigger">Buka Menu</button>
+                  <ul class="dl-menu">
+                    <li><a href="<?php echo base_url() ?>">Home</a></li>
+                      <li>
+                          <a href="#">Profil</a>
+                          <ul class="dl-submenu">
+                            <li><a href="<?php echo base_url() ?>front/about">Sejarah Singkat</a></li>
+                            <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                          <a href="#">Media</a>
+                          <ul class="dl-submenu">
+                            <li><a href="<?php echo base_url() ?>front/gallery">Galeri</a></li>
+                            <li><a href="<?php echo base_url() ?>front/page404">Video</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                          <a href="#">Akademik</a>
+                          <ul class="dl-submenu">
+                            <li><a href="<?php echo base_url() ?>front/classListing">Kelas</a></li>
+                            <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
+                      <li><a href="<?php echo base_url() ?>front/eventListing">Acara</a></li>
+                      <li><a href="<?php echo base_url() ?>front/contact">Kontak Kami</a></li>
+                  </ul>
+              </div><!-- Dl Menu Wrap End -->
           </div>
-          <div class="keo_nav text-center left">
-            <ul>
-              <li>
-                <a href="javascript:void(0)">Home <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="index.html">Home 01</a></li>
-                  <li><a href="index-02.html">Home 02</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Classes <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="class-listing-grid.html">Class Grid</a></li>
-                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
-                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
-                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
-                  <li><a href="class-single.html">Class Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">News <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="blog-listing.html">News Grid</a></li>
-                  <li><a href="blog-single.html">News Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Event <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="event-listing.html">Event Grid</a></li>
-                  <li><a href="event-single.html">Event Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Pages <i class="ti-angle-down"></i></a>
-                <ul class="time">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="price-plan.html">Price Plan</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li>
-                    <a href="javascript:void(0)">Teacher <i class="ti-angle-right right"></i></a>
-                    <ul class="time">
-                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
-                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404-page.html">404 Page</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                </ul>
-              </li>
-              <li><a href="contact-us.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="keo_nav_ui right">
-            <ul class="right">
-              <li class="search search-fld">
-                <i class="ti-search"></i>
-              </li>
-              <li class="cart">
-                <img class="left" src="<?php base_url() ?>front/images/cart-icon.png" alt="">
-                <div class="cart_des">
-                  <span class="item d-block">3 items</span>
-                  <span class="price">$168.00</span>
-                </div>
-              </li>
-            </ul>
-            <div class="search-wrapper-area time">
-              <form class="search-area time">
-                <input type="text" class="white_ph" placeholder="Search Here" />
-                <input type="submit" value="Go" />
-              </form>
-              <span class="keo_search_remove_btn time">
-                <i class="ti-close"></i>
-              </span>
-            </div>
-          </div>
-          <!-- Dl Menu Wrap Start -->
-          <div class="keo_index2 dl-menuwrapper" id="dl-menu">
-            <button class="dl-trigger">Open Menu</button>
-            <ul class="dl-menu">
-              <li>
-                <a href="#">Home <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="index.html">Home 01</a></li>
-                  <li><a href="index-02.html">Home 02</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Classes <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="class-listing-grid.html">Class Grid</a></li>
-                  <li><a href="class-listing-grid-color.html">Class Grid With Color</a></li>
-                  <li><a href="class-listing-grid-sidebar.html">Class Grid With Sidebar</a></li>
-                  <li><a href="class-listing-list-sidebar.html">Class List With Sidebar</a></li>
-                  <li><a href="class-single.html">Class Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">News <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="blog-listing.html">News Grid</a></li>
-                  <li><a href="blog-single.html">News Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Event <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="event-listing.html">Event Grid</a></li>
-                  <li><a href="event-single.html">Event Single</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Pages <i class="ti-angle-down"></i></a>
-                <ul class="dl-submenu">
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="price-plan.html">Price Plan</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li>
-                    <a href="#">Teacher <i class="ti-angle-right right"></i></a>
-                    <ul class="dl-submenu">
-                      <li><a href="teacher-grid.html">Tecaher Grid</a></li>
-                      <li><a href="teacher-detail.html">Teacher Detail</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404-page.html">404 Page</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
-                </ul>
-              </li>
-              <li><a href="contact-us.html">Contact</a></li>
-            </ul>
-          </div><!-- Dl Menu Wrap End -->
-        </div>
       </nav>
       <!-- Navigation Wrap End -->
     </header><!-- Header Wrap End -->
@@ -243,7 +193,7 @@
     <section class="keo_sub_banner keo_bg_img p_relative">
       <div class="container">
         <div class="keo_sub_banner_des text-center p_relative">
-          <h3 class="white_text">Formulir Pendaftaran Peserta Didik Tahun Ajaran 2019/2020</h3>
+          <h3 class="white_text">Penerimaan Peserta Didik Tahun Ajaran 2019/2020</h3>
         </div>
       </div>
     </section><!-- Slider Wrap End -->
@@ -871,7 +821,7 @@
                                       <label for="jarakSekolah">
                                         Pas Foto
                                       </label>
-                                      <input type="text" class="form-control required" id="foto_siswa" name="foto_siswa">
+                                      <input type="file" class="form-control required" id="foto_siswa" name="foto_siswa">
                                     </div>
                                   </div>
                                 </div>
