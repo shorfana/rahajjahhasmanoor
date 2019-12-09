@@ -36,7 +36,7 @@
     		'password' => sha1($password)
     	);
 
-      if($this->Dbs->cek_login("guru",$where)->num_rows()>0){// cek ke tabel user
+      if($this->Dbs->cek_login("user",$where)->num_rows()>0){// cek ke tabel user
         $id_user = $this->Dbs->getUserId($username);
 
     		    $data_session = array(

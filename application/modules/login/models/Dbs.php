@@ -10,7 +10,7 @@ class Dbs extends CI_Model
 	}
 
 	function getUserId($username){
-		$dml = "SELECT id_guru FROM guru where username = '$username'";
+		$dml = "SELECT id FROM user where username = '$username'";
 		$query = $this->db->query($dml)->row();
 		return $query;
 	}

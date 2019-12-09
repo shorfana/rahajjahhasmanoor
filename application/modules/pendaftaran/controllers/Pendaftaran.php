@@ -26,7 +26,7 @@ class Pendaftaran extends MY_Controller{
  		$xx=rand('0',$start);
  		$yy=str_shuffle($pass);
  		$randomString=substr($yy, $xx, $panjang);
-    $id_orangtua = "RAHHMN $randomString" ;
+    $id_orangtua = "$randomString" ;
     // var_dump($id_orangtua); die;
     $data_ortu = array(
       'id_ortu' => $id_orangtua,

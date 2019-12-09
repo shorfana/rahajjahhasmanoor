@@ -10,8 +10,10 @@
     <meta name="keywords" content="admin template, Kostlab admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>RA Hajjah Hasmah Noor</title>
+    <link rel = "icon" href =
+    "<?php echo base_url() ?>front/images/logotk.png"
+        type = "image/x-icon">
     <link rel="apple-touch-icon" href="<?= base_url()?>assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
@@ -58,7 +60,7 @@
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item mr-auto"><a class="navbar-brand" href="#">
                         <div class="brand-logo"></div>
-                        <h2 class="brand-text mb-0">RA HHMN</h2>
+                        <h2 class="brand-text mb-0"><img src="<?php echo base_url() ?>front/images/logotkdash.png"/> </h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block primary" data-ticon="icon-disc"></i></a></li>
             </ul>

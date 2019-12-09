@@ -5,6 +5,9 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>RA Hajjah Hasma Noor</title>
+    <link rel = "icon" href =
+    "<?php echo base_url() ?>front/images/logotk.png"
+        type = "image/x-icon">
     <!-- Custom Main StyleSheet CSS -->
     <link href="<?php echo base_url() ?>front/css/main.css" rel="stylesheet">
     <!-- Color StyleSheet CSS -->
@@ -46,7 +49,7 @@
                 <div class="container">
                     <div class="keo_logo text-center left">
                         <a href="<?php echo base_url() ?>">
-                            <img src="<?php echo base_url() ?>front/images/logotk.png" alt="">
+                            <img src="<?php echo base_url() ?>front/images/logotk .png" alt="">
                         </a>
                     </div>
                     <div class="keo_nav text-center left">
@@ -134,6 +137,6 @@
                     </div><!-- Dl Menu Wrap End -->
                 </div>
             </nav>
-            
+
             <!-- Navigation Wrap End -->
         </header><!-- Header Wrap End -->

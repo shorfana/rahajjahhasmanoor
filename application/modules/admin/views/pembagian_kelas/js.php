@@ -6,59 +6,10 @@
     <!-- END: Page Vendor JS-->
     <!-- BEGIN: Dropify JS -->
     <script src="<?= base_url()?>assets/dropify/dist/js/dropify.js" charset="utf-8"></script>
-    <script type="text/javascript">
-    var drEvent = $('.dropify').dropify();
-    var initFiles=null;
 
-    drEvent.on('dropify.beforeClear', function(event, element){
-      // console.log(element);
-      initFiles=element.file.name;
-        return confirm('Do you really want to delete ' + element.file.name +' ?');
-    });
-    drEvent.on('dropify.afterClear', function(event, element) {
-      console.log(element);
-      if(element.file.name==null){
-        $("#deleteFiles").val(initFiles);
-      }else{
-        console.log('not deleted');
-      }
-        alert('File deleted');
-    });
-    </script>
     <!-- END: Dropify JS -->
     <script src="<?= base_url()?>assets/js/scripts/datatables/datatable.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){$('.crudtable').DataTable({
-            "processing": true, //Feature control the processing indicator.
-            "serverSide": true, //Feature control DataTables' server-side processing mode.
-            "order": [], //Initial no order.
-
-            // Load data for the table's content from an Ajax source
-            "ajax": {
-                "url": "<?php echo base_url()?>admin/Pembagian_kelas/ajax_list",
-                "type": "POST"
-            },
-
-            //Set column definition initialisation properties.
-            "columnDefs": [
-            {
-                "targets": [ 0 ], //first column / numbering column
-                "orderable": false, //set not orderable
-            },
-            ],
-        });
-
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".crudtable").on("click", ".modalDelete", function(){//event khusus untuk table datatables setelah pagination suka error
-          var id=$(this).attr('value');
-          $("#modalMsg").html("Apakah Anda Yakin Ingin Menghapus? "+id);
-          $("#modalHref").attr("href", "<?php echo base_url().$module?>/<?php echo $controller; ?>/delete/"+id);
-        });
-      });
-    </script>
+    
     <script src="<?= base_url()?>assets/summernote/summernote.js" charset="utf-8"></script>
     <script type="text/javascript">
     $(document).ready(function() {

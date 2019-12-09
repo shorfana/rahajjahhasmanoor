@@ -11,9 +11,9 @@
             $this->load->model('Guru_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-      if(!$this->session->userdata("username")){
-            redirect('login');
-          }
+      // if(!$this->session->userdata("username")){
+      //       redirect('login');
+      //     }
         }
 
         public function index()
