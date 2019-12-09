@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if($this->session->userdata('status')=='login'){
+              redirect(base_url('admin'));
+            }
         }
 
         public function index()
@@ -69,7 +72,7 @@
 							$row[] = $Siswa_model->jumlah_saudara;
 							$row[] = $Siswa_model->ukuran_seragam;
 							$row[] = $Siswa_model->riwayat_penyakit;
-							
+
               $row[] ="
               <a href='siswa/edit/$Siswa_model->nik_siswa'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Siswa_model->nik_siswa' href='#'><i class='feather icon-trash'></i></a>";
@@ -143,7 +146,7 @@ public function create_action()
 					'jumlah_saudara' => $this->input->post('jumlah_saudara',TRUE),
 					'ukuran_seragam' => $this->input->post('ukuran_seragam',TRUE),
 					'riwayat_penyakit' => $this->input->post('riwayat_penyakit',TRUE),
-					
+
 );
 
             $this->Siswa_model->insert($data);
@@ -186,7 +189,7 @@ public function create_action()
 					'jumlah_saudara' => $this->input->post('jumlah_saudara',TRUE),
 					'ukuran_seragam' => $this->input->post('ukuran_seragam',TRUE),
 					'riwayat_penyakit' => $this->input->post('riwayat_penyakit',TRUE),
-					
+
 );
 
             $this->Siswa_model->update($this->input->post('nik_siswa', TRUE), $data);

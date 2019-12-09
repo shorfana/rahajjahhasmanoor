@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if($this->session->userdata('status')=='login'){
+              redirect(base_url('admin'));
+            }
         }
 
         public function index()
@@ -64,7 +67,7 @@
 							$row[] = $Ortu_model->tempat_lahir_ibu;
 							$row[] = $Ortu_model->alamat_ayah;
 							$row[] = $Ortu_model->alamat_ibu;
-							
+
               $row[] ="
               <a href='ortu/edit/$Ortu_model->id_ortu'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Ortu_model->id_ortu' href='#'><i class='feather icon-trash'></i></a>";
@@ -133,7 +136,7 @@ public function create_action()
 					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
 					'alamat_ayah' => $this->input->post('alamat_ayah',TRUE),
 					'alamat_ibu' => $this->input->post('alamat_ibu',TRUE),
-					
+
 );
 
             $this->Ortu_model->insert($data);
@@ -171,7 +174,7 @@ public function create_action()
 					'tempat_lahir_ibu' => $this->input->post('tempat_lahir_ibu',TRUE),
 					'alamat_ayah' => $this->input->post('alamat_ayah',TRUE),
 					'alamat_ibu' => $this->input->post('alamat_ibu',TRUE),
-					
+
 );
 
             $this->Ortu_model->update($this->input->post('id_ortu', TRUE), $data);

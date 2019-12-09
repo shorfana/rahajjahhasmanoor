@@ -13,6 +13,9 @@
         // if(!$this->session->userdata("username")){
         //       redirect('login');
         //     }
+        if(!$this->session->userdata('status')=='login'){
+          redirect(base_url('login'));
+        }
       }
 
       function index()

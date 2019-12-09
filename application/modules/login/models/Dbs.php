@@ -15,5 +15,25 @@ class Dbs extends CI_Model
 		return $query;
 	}
 
+	function ubahpasswordUser($data,$table,$where,$value){
+		$this->db->where($where,$value);
+		$this->db->update($table,$data);
+		if($this->db->affected_rows()>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	function resetpasswordUser($data,$table,$where,$value){
+		$this->db->where($where,$value);
+		$this->db->update($table,$data);
+		if($this->db->affected_rows()>0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
 }
  ?>
