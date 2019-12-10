@@ -17,9 +17,11 @@
                     <ul class="menu-content">
                       <li class="nav-item"><a href="<?= base_url()?>admin/guru"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="">Data Guru</span></a>
                       </li>
-                      <li class="nav-item"><a href="<?= base_url()?>admin/ortu"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="">Data Orang Tua </span></a>
+                      <li class="nav-item"><a href="<?= base_url()?>admin/nilai"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="">Data Nilai</span></a>
                       </li>
                       <li class="nav-item"><a href="<?= base_url()?>admin/siswa"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="">Data Siswa</span></a>
+                      </li>
+                      <li class="nav-item"><a href="<?= base_url()?>admin/kelas"><i class="feather icon-circle"></i><span class="menu-title" data-i18n="">Data Kelas</span></a>
                       </li>
                     </ul>
                 </li>
