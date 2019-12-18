@@ -9,30 +9,30 @@
     <meta name="keywords" content="admin template, Vuesax admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>Lupa Password</title>
-    <link rel="apple-touch-icon" href="<?php base_url() ?>assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php base_url() ?>assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php base_url() ?>../assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php base_url() ?>../assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/vendors/css/vendors.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/bootstrap-extended.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/colors.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/components.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/themes/dark-layout.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/themes/semi-dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/components.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/themes/dark-layout.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/themes/semi-dark-layout.min.css">
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/core/menu/menu-types/vertical-menu.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/core/colors/palette-gradient.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>assets/css/pages/authentication.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/core/menu/menu-types/vertical-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/core/colors/palette-gradient.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?>../assets/css/pages/authentication.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="<?php base_url() ?><?php base_url() ?><?php base_url() ?>assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php base_url() ?><?php base_url() ?><?php base_url() ?>../assets/css/style.css">
     <!-- END: Custom CSS-->
 
   </head>
@@ -50,7 +50,7 @@
         <div class="card bg-authentication rounded-0 mb-0">
             <div class="row m-0">
                 <div class="col-lg-6 d-lg-block d-none text-center align-self-center">
-                    <img src="<?php base_url() ?>assets/images/pages/forgot-password.png" alt="branding logo">
+                    <img src="<?php base_url() ?>../assets/images/pages/forgot-password.png" alt="branding logo">
                 </div>
                 <div class="col-lg-6 col-12 p-0">
                     <div class="card rounded-0 mb-0 px-2 py-1">
@@ -69,7 +69,7 @@
                                     </div>
                                 </form>
                                 <div class="float-md-left d-block mb-1">
-                                    <a href="auth-login.html" class="btn btn-outline-primary btn-block px-75">Back to Login</a>
+                                    <a href="<?php echo base_url()."login" ?>" class="btn btn-outline-primary btn-block px-75">Back to Login</a>
                                 </div>
                                 <div class="float-md-right d-block mb-1">
                                     <a href="#" class="btn btn-primary btn-block px-75">Recover Password</a>
@@ -91,16 +91,16 @@
 
 
     <!-- END: Theme JS-->
-    <script src="<?php base_url() ?>assets/vendors/js/vendors.min.js"></script>
+    <script src="<?php base_url() ?>../assets/vendors/js/vendors.min.js"></script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
-    <script src="<?php base_url() ?>assets/js/core/app-menu.min.js"></script>
-    <script src="<?php base_url() ?>assets/js/core/app.min.js"></script>
-    <script src="<?php base_url() ?>assets/js/scripts/components.min.js"></script>
+    <script src="<?php base_url() ?>../assets/js/core/app-menu.min.js"></script>
+    <script src="<?php base_url() ?>../assets/js/core/app.min.js"></script>
+    <script src="<?php base_url() ?>../assets/js/scripts/components.min.js"></script>
     <!-- BEGIN: Page JS-->
     <!-- END: Page JS-->
 
