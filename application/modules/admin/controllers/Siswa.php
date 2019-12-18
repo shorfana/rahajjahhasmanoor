@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if(!$this->session->userdata('status')=='login'){
+              redirect(base_url('login'));
+            }
         }
 
         public function index()
@@ -64,7 +67,7 @@
 							$row[] = $Siswa_model->nik_ibu;
 							$row[] = $Siswa_model->status_siswa;
 							$row[] = $Siswa_model->id_kelas;
-							
+
               $row[] ="
               <a href='siswa/edit/$Siswa_model->id_siswa'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Siswa_model->id_siswa' href='#'><i class='feather icon-trash'></i></a>";
@@ -133,7 +136,7 @@ public function create_action()
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
 					'status_siswa' => $this->input->post('status_siswa',TRUE),
 					'id_kelas' => $this->input->post('id_kelas',TRUE),
-					
+
 );
 
             $this->Siswa_model->insert($data);
@@ -171,7 +174,7 @@ public function create_action()
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
 					'status_siswa' => $this->input->post('status_siswa',TRUE),
 					'id_kelas' => $this->input->post('id_kelas',TRUE),
-					
+
 );
 
             $this->Siswa_model->update($this->input->post('id_siswa', TRUE), $data);

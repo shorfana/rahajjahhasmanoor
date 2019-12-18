@@ -6,9 +6,14 @@
         <div class="card-body">
           <form method="post" action="<?php echo base_url().$action ?>" enctype="multipart/form-data">
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">id_kelas</label>
+                <label class="col-sm-2 col-form-label">Nama Kelas</label>
                 <div class="col-sm-10">
-                  <input type="text" name="id_kelas" class="form-control">
+                  <select class="form-control" name="id_kelas" id="id_kelas">
+                      <option value="">Please Select</option>
+                      <?php foreach ($kelas as $d ): ?>
+                        <option value="<?php echo $d->id_kelas ?>"><?php echo $d->nama_kelas ?> <?php echo " ( tingkat ".$d->tingkat_kelas." )" ?></option>
+                      <?php endforeach; ?>
+  							    </select>
                 </div>
               </div>
 						<div class="form-group row">

@@ -26,15 +26,6 @@
                                            <th>aksi</th>
                                        </tr>
                                      </thead>
-                                     <tbody></tbody>
-                                     <tfoot>
-                                       <tr>
-                                           <?php foreach ($datafield as $d): ?>
-                                             <th><?php echo str_replace("_"," ",$d) ?></th>
-                                           <?php endforeach; ?>
-                                           <th>aksi</th>
-                                       </tr>
-                                     </tfoot>
                                  </table>
                              </div>
                          </div>

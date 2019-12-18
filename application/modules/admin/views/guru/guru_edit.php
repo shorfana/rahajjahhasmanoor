@@ -14,7 +14,12 @@
 						<div class="form-group row">
               <label for="example-text-input" class="col-sm-2 col-form-label">id_kelas</label>
               <div class="col-sm-10">
-                <input type="text" name="id_kelas" class="form-control" value="<?php echo $dataedit->id_kelas?>">
+                <select class="form-control" name="id_kelas" id="id_kelas">
+                    <option value="<?php echo $dataedit->id_kelas ?>"><?php echo $dataedit->id_kelas ?></option>
+                    <?php foreach ($kelas as $d ): ?>
+                      <option value="<?php echo $d->id_kelas ?>"><?php echo $d->nama_kelas ?> <?php echo " ( tingkat ".$d->tingkat_kelas." )" ?></option>
+                    <?php endforeach; ?>
+                  </select>
               </div>
               </div>
 						<div class="form-group row">

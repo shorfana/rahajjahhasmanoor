@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if(!$this->session->userdata('status')=='login'){
+              redirect(base_url('login'));
+            }
         }
 
         public function index()
@@ -54,7 +57,7 @@
 							$row[] = $Nilai_model->pend_agama_islam;
 							$row[] = $Nilai_model->seni;
 							$row[] = $Nilai_model->semester;
-							
+
               $row[] ="
               <a href='nilai/edit/$Nilai_model->id_nilai'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Nilai_model->id_nilai' href='#'><i class='feather icon-trash'></i></a>";
@@ -113,7 +116,7 @@ public function create_action()
 					'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
 					'seni' => $this->input->post('seni',TRUE),
 					'semester' => $this->input->post('semester',TRUE),
-					
+
 );
 
             $this->Nilai_model->insert($data);
@@ -141,7 +144,7 @@ public function create_action()
 					'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
 					'seni' => $this->input->post('seni',TRUE),
 					'semester' => $this->input->post('semester',TRUE),
-					
+
 );
 
             $this->Nilai_model->update($this->input->post('id_nilai', TRUE), $data);

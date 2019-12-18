@@ -24,7 +24,7 @@
 							$this->column_search[]='nama_guru';
 							$this->column_search[]='nik';
 							$this->column_search[]='nip';
-							
+
         }
 
         // get all
@@ -32,6 +32,11 @@
         {
             $this->db->order_by($this->id, 'DESC');
             return $this->db->get($this->table)->result();
+        }
+
+        function getKelas(){
+          $get = $this->db->get('kelas');
+          return $get->result();
         }
 
         function getDataTable(){

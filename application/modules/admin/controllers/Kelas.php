@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if(!$this->session->userdata('status')=='login'){
+              redirect(base_url('login'));
+            }
         }
 
         public function index()
@@ -48,7 +51,7 @@
               $row[] = $no;
 							$row[] = $Kelas_model->tingkat_kelas;
 							$row[] = $Kelas_model->nama_kelas;
-							
+
               $row[] ="
               <a href='kelas/edit/$Kelas_model->id_kelas'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Kelas_model->id_kelas' href='#'><i class='feather icon-trash'></i></a>";
@@ -101,7 +104,7 @@ public function create_action()
             $data = array(
 					'tingkat_kelas' => $this->input->post('tingkat_kelas',TRUE),
 					'nama_kelas' => $this->input->post('nama_kelas',TRUE),
-					
+
 );
 
             $this->Kelas_model->insert($data);
@@ -123,7 +126,7 @@ public function create_action()
             $data = array(
 					'tingkat_kelas' => $this->input->post('tingkat_kelas',TRUE),
 					'nama_kelas' => $this->input->post('nama_kelas',TRUE),
-					
+
 );
 
             $this->Kelas_model->update($this->input->post('id_kelas', TRUE), $data);

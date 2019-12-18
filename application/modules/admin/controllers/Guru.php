@@ -16,6 +16,9 @@
             //     redirect(base_url('login'));
             //   }
             // }
+            if(!$this->session->userdata('status')=='login'){
+              redirect(base_url('login'));
+            }
         }
 
         public function index()
@@ -50,7 +53,7 @@
 							$row[] = $Guru_model->nama_guru;
 							$row[] = $Guru_model->nik;
 							$row[] = $Guru_model->nip;
-							
+
               $row[] ="
               <a href='guru/edit/$Guru_model->id_guru'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Guru_model->id_guru' href='#'><i class='feather icon-trash'></i></a>";
@@ -69,19 +72,23 @@
 
 
         public function create(){
+          $get_kelas = $this->Guru_model->getKelas();
+          // var_dump($get_kelas);die;
            $data = array(
              'content'=>'admin/guru/guru_create',
              'sidebar'=>'admin/sidebar',
              'action'=>'admin/guru/create_action',
              'module'=>'admin',
              'titlePage'=>'guru',
-             'controller'=>'guru'
+             'controller'=>'guru',
+             'kelas' => $get_kelas
             );
           $this->template->load($data);
         }
 
         public function edit($id_guru){
           $dataedit=$this->Guru_model->get_by_id($id_guru);
+            $get_kelas = $this->Guru_model->getKelas();
            $data = array(
              'content'=>'admin/guru/guru_edit',
              'sidebar'=>'admin/sidebar',
@@ -89,6 +96,7 @@
              'dataedit'=>$dataedit,
              'module'=>'admin',
              'titlePage'=>'guru',
+             'kelas' => $get_kelas,
              'controller'=>'guru'
             );
           $this->template->load($data);
@@ -105,8 +113,9 @@ public function create_action()
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
-					
-);
+
+          );
+
 
             $this->Guru_model->insert($data);
             $this->session->set_flashdata('message', 'Create Record Success');
@@ -129,7 +138,7 @@ public function create_action()
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
-					
+
 );
 
             $this->Guru_model->update($this->input->post('id_guru', TRUE), $data);
@@ -154,10 +163,10 @@ public function create_action()
 
     public function _rules()
     {
-$this->form_validation->set_rules('id_kelas', 'id_kelas', 'trim|required');
-$this->form_validation->set_rules('nama_guru', 'nama_guru', 'trim|required');
-$this->form_validation->set_rules('nik', 'nik', 'trim|required');
-$this->form_validation->set_rules('nip', 'nip', 'trim|required');
+// $this->form_validation->set_rules('id_kelas', 'id_kelas', 'trim|required');
+// $this->form_validation->set_rules('nama_guru', 'nama_guru', 'trim|required');
+// $this->form_validation->set_rules('nik', 'nik', 'trim|required');
+// $this->form_validation->set_rules('nip', 'nip', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_guru', 'id_guru', 'trim');
