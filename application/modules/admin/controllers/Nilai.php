@@ -11,9 +11,11 @@
             $this->load->model('Nilai_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-      // if(!$this->session->userdata("username")){
-      //       redirect('login');
-      //     }
+            // if($method != 'ajax_list'){
+            //   if($this->session->userdata('status')!='login'){
+            //     redirect(base_url('login'));
+            //   }
+            // }
         }
 
         public function index()
@@ -45,14 +47,14 @@
               $row = array();
               $row[] = $no;
 							$row[] = $Nilai_model->id_siswa;
-							$row[] = $Nilai_model->semester;
 							$row[] = $Nilai_model->fisik_motorik;
 							$row[] = $Nilai_model->nilai_agama_moral;
-                            $row[] = $Nilai_model->kognitif;
-                            $row[] = $Nilai_model->bahasa;
-                            $row[] = $Nilai_model->pend_agama_islam;
-                            $row[] = $Nilai_model->seni_budaya;
-
+							$row[] = $Nilai_model->kognitif;
+							$row[] = $Nilai_model->bahasa;
+							$row[] = $Nilai_model->pend_agama_islam;
+							$row[] = $Nilai_model->seni;
+							$row[] = $Nilai_model->semester;
+							
               $row[] ="
               <a href='nilai/edit/$Nilai_model->id_nilai'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Nilai_model->id_nilai' href='#'><i class='feather icon-trash'></i></a>";
@@ -104,14 +106,14 @@ public function create_action()
         } else {
             $data = array(
 					'id_siswa' => $this->input->post('id_siswa',TRUE),
-					'semester' => $this->input->post('semester',TRUE),
 					'fisik_motorik' => $this->input->post('fisik_motorik',TRUE),
-                    'nilai_agama_moral' => $this->input->post('nilai_agama_moral',TRUE),
-                    'kognitif' => $this->input->post('kognitif',TRUE),
-                    'bahasa' => $this->input->post('bahasa',TRUE),
-                    'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
-                    'seni_budaya' => $this->input->post('seni_budaya',TRUE),
-
+					'nilai_agama_moral' => $this->input->post('nilai_agama_moral',TRUE),
+					'kognitif' => $this->input->post('kognitif',TRUE),
+					'bahasa' => $this->input->post('bahasa',TRUE),
+					'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
+					'seni' => $this->input->post('seni',TRUE),
+					'semester' => $this->input->post('semester',TRUE),
+					
 );
 
             $this->Nilai_model->insert($data);
@@ -131,15 +133,15 @@ public function create_action()
             $this->edit($this->input->post('id', TRUE));
         } else {
             $data = array(
-                'id_siswa' => $this->input->post('id_siswa',TRUE),
-                'semester' => $this->input->post('semester',TRUE),
-                'fisik_motorik' => $this->input->post('fisik_motorik',TRUE),
-                'nilai_agama_moral' => $this->input->post('nilai_agama_moral',TRUE),
-                'kognitif' => $this->input->post('kognitif',TRUE),
-                'bahasa' => $this->input->post('bahasa',TRUE),
-                'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
-                'seni_budaya' => $this->input->post('seni_budaya',TRUE),
-
+					'id_siswa' => $this->input->post('id_siswa',TRUE),
+					'fisik_motorik' => $this->input->post('fisik_motorik',TRUE),
+					'nilai_agama_moral' => $this->input->post('nilai_agama_moral',TRUE),
+					'kognitif' => $this->input->post('kognitif',TRUE),
+					'bahasa' => $this->input->post('bahasa',TRUE),
+					'pend_agama_islam' => $this->input->post('pend_agama_islam',TRUE),
+					'seni' => $this->input->post('seni',TRUE),
+					'semester' => $this->input->post('semester',TRUE),
+					
 );
 
             $this->Nilai_model->update($this->input->post('id_nilai', TRUE), $data);
@@ -165,13 +167,13 @@ public function create_action()
     public function _rules()
     {
 $this->form_validation->set_rules('id_siswa', 'id_siswa', 'trim|required');
-$this->form_validation->set_rules('semester', 'semester', 'trim|required');
 $this->form_validation->set_rules('fisik_motorik', 'fisik_motorik', 'trim|required');
 $this->form_validation->set_rules('nilai_agama_moral', 'nilai_agama_moral', 'trim|required');
 $this->form_validation->set_rules('kognitif', 'kognitif', 'trim|required');
 $this->form_validation->set_rules('bahasa', 'bahasa', 'trim|required');
 $this->form_validation->set_rules('pend_agama_islam', 'pend_agama_islam', 'trim|required');
-$this->form_validation->set_rules('seni_budaya', 'seni_budaya', 'trim|required');
+$this->form_validation->set_rules('seni', 'seni', 'trim|required');
+$this->form_validation->set_rules('semester', 'semester', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_nilai', 'id_nilai', 'trim');

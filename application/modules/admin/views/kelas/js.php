@@ -35,7 +35,7 @@
 
             // Load data for the table's content from an Ajax source
             "ajax": {
-                "url": "<?php echo base_url()?>admin/Nilai/ajax_list",
+                "url": "<?php echo base_url()?>admin/Kelas/ajax_list",
                 "type": "POST"
             },
 

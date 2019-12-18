@@ -7,8 +7,8 @@
              <div class="col-12">
                  <div class="card">
                      <div class="card-header">
-                         <h4 class="card-title">Data nilai</h4>
-      		    		<a href="<?= site_url($module.'/nilai/create') ?>"><button type="button" class="btn btn-primary round waves-effect waves-light">
+                         <h4 class="card-title">Data kelas</h4>
+      		    		<a href="<?= site_url($module.'/kelas/create') ?>"><button type="button" class="btn btn-primary round waves-effect waves-light">
       	               	 Tambah Data
       	              	</button>
                       </a>
@@ -44,7 +44,7 @@
          </div>
      </section>
 
-    <div id="responsive-modal" class="modal fade" tabindex="-1" nilai="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div id="responsive-modal" class="modal fade" tabindex="-1" kelas="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

@@ -11,12 +11,11 @@
             $this->load->model('Guru_model');
             $this->load->library('form_validation');
 	    $method=$this->router->fetch_method();
-      // if(!$this->session->userdata("username")){
-      //       redirect('login');
-      //     }
-      if($this->session->userdata('status')=='login'){
-        redirect(base_url('admin'));
-      }
+            // if($method != 'ajax_list'){
+            //   if($this->session->userdata('status')!='login'){
+            //     redirect(base_url('login'));
+            //   }
+            // }
         }
 
         public function index()
@@ -47,12 +46,11 @@
               $no++;
               $row = array();
               $row[] = $no;
+							$row[] = $Guru_model->id_kelas;
 							$row[] = $Guru_model->nama_guru;
 							$row[] = $Guru_model->nik;
 							$row[] = $Guru_model->nip;
-							$row[] = $Guru_model->username;
-							$row[] = $Guru_model->password;
-
+							
               $row[] ="
               <a href='guru/edit/$Guru_model->id_guru'><i class='m-1 feather icon-edit-2'></i></a>
               <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Guru_model->id_guru' href='#'><i class='feather icon-trash'></i></a>";
@@ -103,12 +101,11 @@ public function create_action()
             $this->create();
         } else {
             $data = array(
+					'id_kelas' => $this->input->post('id_kelas',TRUE),
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
-					'username' => $this->input->post('username',TRUE),
-					'password' => $this->input->post('password',TRUE),
-
+					
 );
 
             $this->Guru_model->insert($data);
@@ -128,12 +125,11 @@ public function create_action()
             $this->edit($this->input->post('id', TRUE));
         } else {
             $data = array(
+					'id_kelas' => $this->input->post('id_kelas',TRUE),
 					'nama_guru' => $this->input->post('nama_guru',TRUE),
 					'nik' => $this->input->post('nik',TRUE),
 					'nip' => $this->input->post('nip',TRUE),
-					'username' => $this->input->post('username',TRUE),
-					'password' => $this->input->post('password',TRUE),
-
+					
 );
 
             $this->Guru_model->update($this->input->post('id_guru', TRUE), $data);
@@ -158,11 +154,10 @@ public function create_action()
 
     public function _rules()
     {
+$this->form_validation->set_rules('id_kelas', 'id_kelas', 'trim|required');
 $this->form_validation->set_rules('nama_guru', 'nama_guru', 'trim|required');
 $this->form_validation->set_rules('nik', 'nik', 'trim|required');
 $this->form_validation->set_rules('nip', 'nip', 'trim|required');
-$this->form_validation->set_rules('username', 'username', 'trim|required');
-$this->form_validation->set_rules('password', 'password', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_guru', 'id_guru', 'trim');

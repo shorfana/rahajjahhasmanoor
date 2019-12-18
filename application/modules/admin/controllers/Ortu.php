@@ -16,7 +16,7 @@
             //     redirect(base_url('login'));
             //   }
             // }
-            if($this->session->userdata('status')=='login'){
+            if($this->session->userdata('status')!='login'){
               redirect(base_url('admin'));
             }
         }

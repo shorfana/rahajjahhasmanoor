@@ -3,11 +3,11 @@
     if (!defined('BASEPATH'))
         exit('No direct script access allowed');
 
-    class Siswa_model extends CI_Model
+    class Kelas_model extends CI_Model
     {
-        public $table = 'siswa';
-        public $id = 'id_siswa';
-        public $order = array('id_siswa' => 'asc');
+        public $table = 'kelas';
+        public $id = 'id_kelas';
+        public $order = array('id_kelas' => 'asc');
         public $select='*';
 
         function __construct()
@@ -16,42 +16,10 @@
             $this->column_order=[];
             $this->column_search=[];
             $this->column_order[]=null;
-							$this->column_order[]='nik_siswa';
-							$this->column_order[]='no_induk';
-							$this->column_order[]='nama_siswa';
-							$this->column_order[]='jenis_kelamin';
-							$this->column_order[]='tempat_lahir';
-							$this->column_order[]='tanggal_lahir';
-							$this->column_order[]='alamat';
-							$this->column_order[]='tahun_masuk';
-							$this->column_order[]='tingkat';
-							$this->column_order[]='status_tempat_tinggal';
-							$this->column_order[]='warga_negara';
-							$this->column_order[]='agama';
-							$this->column_order[]='nama_ayah';
-							$this->column_order[]='nama_ibu';
-							$this->column_order[]='nik_ayah';
-							$this->column_order[]='nik_ibu';
-							$this->column_order[]='status_siswa';
-							$this->column_order[]='id_kelas';
-							$this->column_search[]='nik_siswa';
-							$this->column_search[]='no_induk';
-							$this->column_search[]='nama_siswa';
-							$this->column_search[]='jenis_kelamin';
-							$this->column_search[]='tempat_lahir';
-							$this->column_search[]='tanggal_lahir';
-							$this->column_search[]='alamat';
-							$this->column_search[]='tahun_masuk';
-							$this->column_search[]='tingkat';
-							$this->column_search[]='status_tempat_tinggal';
-							$this->column_search[]='warga_negara';
-							$this->column_search[]='agama';
-							$this->column_search[]='nama_ayah';
-							$this->column_search[]='nama_ibu';
-							$this->column_search[]='nik_ayah';
-							$this->column_search[]='nik_ibu';
-							$this->column_search[]='status_siswa';
-							$this->column_search[]='id_kelas';
+							$this->column_order[]='tingkat_kelas';
+							$this->column_order[]='nama_kelas';
+							$this->column_search[]='tingkat_kelas';
+							$this->column_search[]='nama_kelas';
 							
         }
 

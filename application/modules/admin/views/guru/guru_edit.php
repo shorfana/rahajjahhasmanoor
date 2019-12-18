@@ -12,6 +12,12 @@
               </div>
             </div>
 						<div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">id_kelas</label>
+              <div class="col-sm-10">
+                <input type="text" name="id_kelas" class="form-control" value="<?php echo $dataedit->id_kelas?>">
+              </div>
+              </div>
+						<div class="form-group row">
               <label for="example-text-input" class="col-sm-2 col-form-label">nama_guru</label>
               <div class="col-sm-10">
                 <input type="text" name="nama_guru" class="form-control" value="<?php echo $dataedit->nama_guru?>">
@@ -27,18 +33,6 @@
               <label for="example-text-input" class="col-sm-2 col-form-label">nip</label>
               <div class="col-sm-10">
                 <input type="text" name="nip" class="form-control" value="<?php echo $dataedit->nip?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">username</label>
-              <div class="col-sm-10">
-                <input type="text" name="username" class="form-control" value="<?php echo $dataedit->username?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">password</label>
-              <div class="col-sm-10">
-                <input type="text" name="password" class="form-control" value="<?php echo $dataedit->password?>">
               </div>
               </div>
 

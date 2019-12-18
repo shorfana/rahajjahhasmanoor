@@ -6,15 +6,15 @@
         <div class="card-body">
           <form method="post" action="<?php echo base_url().$action ?>" enctype="multipart/form-data">
             <div class="form-group row">
-              <label class="col-sm-2 col-form-label">nik_siswa</label>
+              <label class="col-sm-2 col-form-label">id_siswa</label>
               <div class="col-sm-10">
-                <input type="text" name="nik_siswa" class="form-control" placeholder="" value="<?php echo $dataedit->nik_siswa?>" readonly>
+                <input type="text" name="id_siswa" class="form-control" placeholder="" value="<?php echo $dataedit->id_siswa?>" readonly>
               </div>
             </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">id_ortu</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">nik_siswa</label>
               <div class="col-sm-10">
-                <input type="text" name="id_ortu" class="form-control" value="<?php echo $dataedit->id_ortu?>">
+                <input type="text" name="nik_siswa" class="form-control" value="<?php echo $dataedit->nik_siswa?>">
               </div>
               </div>
 						<div class="form-group row">
@@ -84,69 +84,39 @@
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">no_kk</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">nama_ayah</label>
               <div class="col-sm-10">
-                <input type="text" name="no_kk" class="form-control" value="<?php echo $dataedit->no_kk?>">
+                <input type="text" name="nama_ayah" class="form-control" value="<?php echo $dataedit->nama_ayah?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">no_telp</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">nama_ibu</label>
               <div class="col-sm-10">
-                <input type="text" name="no_telp" class="form-control" value="<?php echo $dataedit->no_telp?>">
+                <input type="text" name="nama_ibu" class="form-control" value="<?php echo $dataedit->nama_ibu?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">foto_siswa</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">nik_ayah</label>
               <div class="col-sm-10">
-                <input type="text" name="foto_siswa" class="form-control" value="<?php echo $dataedit->foto_siswa?>">
+                <input type="text" name="nik_ayah" class="form-control" value="<?php echo $dataedit->nik_ayah?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">umur</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">nik_ibu</label>
               <div class="col-sm-10">
-                <input type="text" name="umur" class="form-control" value="<?php echo $dataedit->umur?>">
+                <input type="text" name="nik_ibu" class="form-control" value="<?php echo $dataedit->nik_ibu?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">tinggi_badan</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">status_siswa</label>
               <div class="col-sm-10">
-                <input type="text" name="tinggi_badan" class="form-control" value="<?php echo $dataedit->tinggi_badan?>">
+                <input type="text" name="status_siswa" class="form-control" value="<?php echo $dataedit->status_siswa?>">
               </div>
               </div>
 						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">berat_badan</label>
+              <label for="example-text-input" class="col-sm-2 col-form-label">id_kelas</label>
               <div class="col-sm-10">
-                <input type="text" name="berat_badan" class="form-control" value="<?php echo $dataedit->berat_badan?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">jarak_sekolah</label>
-              <div class="col-sm-10">
-                <input type="text" name="jarak_sekolah" class="form-control" value="<?php echo $dataedit->jarak_sekolah?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">anak_ke</label>
-              <div class="col-sm-10">
-                <input type="text" name="anak_ke" class="form-control" value="<?php echo $dataedit->anak_ke?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">jumlah_saudara</label>
-              <div class="col-sm-10">
-                <input type="text" name="jumlah_saudara" class="form-control" value="<?php echo $dataedit->jumlah_saudara?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">ukuran_seragam</label>
-              <div class="col-sm-10">
-                <input type="text" name="ukuran_seragam" class="form-control" value="<?php echo $dataedit->ukuran_seragam?>">
-              </div>
-              </div>
-						<div class="form-group row">
-              <label for="example-text-input" class="col-sm-2 col-form-label">riwayat_penyakit</label>
-              <div class="col-sm-10">
-                <input type="text" name="riwayat_penyakit" class="form-control" value="<?php echo $dataedit->riwayat_penyakit?>">
+                <input type="text" name="id_kelas" class="form-control" value="<?php echo $dataedit->id_kelas?>">
               </div>
               </div>
 

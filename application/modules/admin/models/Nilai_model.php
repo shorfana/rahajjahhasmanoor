@@ -17,21 +17,21 @@
             $this->column_search=[];
             $this->column_order[]=null;
 							$this->column_order[]='id_siswa';
-							$this->column_order[]='semester';
 							$this->column_order[]='fisik_motorik';
 							$this->column_order[]='nilai_agama_moral';
-                            $this->column_order[]='kognitif';
-                            $this->column_order[]='bahasa';
-                            $this->column_order[]='pend_agama_islam';
-                            $this->column_order[]='seni_budaya';
+							$this->column_order[]='kognitif';
+							$this->column_order[]='bahasa';
+							$this->column_order[]='pend_agama_islam';
+							$this->column_order[]='seni';
+							$this->column_order[]='semester';
 							$this->column_search[]='id_siswa';
-							$this->column_search[]='semester';
 							$this->column_search[]='fisik_motorik';
 							$this->column_search[]='nilai_agama_moral';
-                            $this->column_search[]='kognitif';
-                            $this->column_search[]='bahasa';
+							$this->column_search[]='kognitif';
+							$this->column_search[]='bahasa';
 							$this->column_search[]='pend_agama_islam';
-							$this->column_search[]='seni_budaya';
+							$this->column_search[]='seni';
+							$this->column_search[]='semester';
 							
         }
 

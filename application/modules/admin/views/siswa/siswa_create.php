@@ -6,9 +6,9 @@
         <div class="card-body">
           <form method="post" action="<?php echo base_url().$action ?>" enctype="multipart/form-data">
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">id_ortu</label>
+                <label class="col-sm-2 col-form-label">nik_siswa</label>
                 <div class="col-sm-10">
-                  <input type="text" name="id_ortu" class="form-control">
+                  <input type="text" name="nik_siswa" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
@@ -78,69 +78,39 @@
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">no_kk</label>
+                <label class="col-sm-2 col-form-label">nama_ayah</label>
                 <div class="col-sm-10">
-                  <input type="text" name="no_kk" class="form-control">
+                  <input type="text" name="nama_ayah" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">no_telp</label>
+                <label class="col-sm-2 col-form-label">nama_ibu</label>
                 <div class="col-sm-10">
-                  <input type="text" name="no_telp" class="form-control">
+                  <input type="text" name="nama_ibu" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">foto_siswa</label>
+                <label class="col-sm-2 col-form-label">nik_ayah</label>
                 <div class="col-sm-10">
-                  <input type="text" name="foto_siswa" class="form-control">
+                  <input type="text" name="nik_ayah" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">umur</label>
+                <label class="col-sm-2 col-form-label">nik_ibu</label>
                 <div class="col-sm-10">
-                  <input type="text" name="umur" class="form-control">
+                  <input type="text" name="nik_ibu" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">tinggi_badan</label>
+                <label class="col-sm-2 col-form-label">status_siswa</label>
                 <div class="col-sm-10">
-                  <input type="text" name="tinggi_badan" class="form-control">
+                  <input type="text" name="status_siswa" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">berat_badan</label>
+                <label class="col-sm-2 col-form-label">id_kelas</label>
                 <div class="col-sm-10">
-                  <input type="text" name="berat_badan" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">jarak_sekolah</label>
-                <div class="col-sm-10">
-                  <input type="text" name="jarak_sekolah" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">anak_ke</label>
-                <div class="col-sm-10">
-                  <input type="text" name="anak_ke" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">jumlah_saudara</label>
-                <div class="col-sm-10">
-                  <input type="text" name="jumlah_saudara" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">ukuran_seragam</label>
-                <div class="col-sm-10">
-                  <input type="text" name="ukuran_seragam" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">riwayat_penyakit</label>
-                <div class="col-sm-10">
-                  <input type="text" name="riwayat_penyakit" class="form-control">
+                  <input type="text" name="id_kelas" class="form-control">
                 </div>
               </div>
 </div>

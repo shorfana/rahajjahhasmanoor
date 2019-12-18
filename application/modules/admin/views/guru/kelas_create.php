@@ -6,27 +6,21 @@
         <div class="card-body">
           <form method="post" action="<?php echo base_url().$action ?>" enctype="multipart/form-data">
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">id_kelas</label>
+                <label class="col-sm-2 col-form-label">id_siswa</label>
                 <div class="col-sm-10">
-                  <input type="text" name="id_kelas" class="form-control">
+                  <input type="text" name="id_siswa" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">nama_guru</label>
+                <label class="col-sm-2 col-form-label">tingkat_kelas</label>
                 <div class="col-sm-10">
-                  <input type="text" name="nama_guru" class="form-control">
+                  <input type="text" name="tingkat_kelas" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">nik</label>
+                <label class="col-sm-2 col-form-label">nama_kelas</label>
                 <div class="col-sm-10">
-                  <input type="text" name="nik" class="form-control">
-                </div>
-              </div>
-						<div class="form-group row">
-                <label class="col-sm-2 col-form-label">nip</label>
-                <div class="col-sm-10">
-                  <input type="text" name="nip" class="form-control">
+                  <input type="text" name="nama_kelas" class="form-control">
                 </div>
               </div>
 </div>
