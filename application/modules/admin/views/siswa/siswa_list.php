@@ -20,9 +20,17 @@
                                  <table class="table crudtable">
                                      <thead>
                                        <tr>
-                                           <?php foreach ($datafield as $d): ?>
-                                             <th><?php echo str_replace("_"," ",$d) ?></th>
-                                           <?php endforeach; ?>
+                                           <?php //foreach ($datafield as $d): ?>
+                                             <th>No</th>
+                                             <th>NIK Siswa</th>
+                                             <th>No Induk</th>
+                                             <th>Nama Siswa</th>
+                                             <th>Jenis Kelamin</th>
+                                             <th>Tempat Lahir</th>
+                                             <th>Tanggal Lahir</th>
+                                             <th>Tahun Masuk</th>
+                                             <th>Tingkat</th>
+                                           <?php //endforeach; ?>
                                            <th>aksi</th>
                                        </tr>
                                      </thead>

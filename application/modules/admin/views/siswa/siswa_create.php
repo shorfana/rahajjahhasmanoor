@@ -26,7 +26,11 @@
 						<div class="form-group row">
                 <label class="col-sm-2 col-form-label">jenis_kelamin</label>
                 <div class="col-sm-10">
-                  <input type="text" name="jenis_kelamin" class="form-control">
+                  <select class="form-control" name="jenis_kelamin" id="jenis_kelamin">
+                    <option value="">Please Select</option>
+                    <option value="L">Laki -laki</option>
+                    <option value="P">Perempuan</option>
+                </select>
                 </div>
               </div>
 						<div class="form-group row">
@@ -38,7 +42,7 @@
 						<div class="form-group row">
                 <label class="col-sm-2 col-form-label">tanggal_lahir</label>
                 <div class="col-sm-10">
-                  <input type="text" name="tanggal_lahir" class="form-control">
+                  <input type="date" name="tanggal_lahir" class="form-control">
                 </div>
               </div>
 						<div class="form-group row">
@@ -56,7 +60,11 @@
 						<div class="form-group row">
                 <label class="col-sm-2 col-form-label">tingkat</label>
                 <div class="col-sm-10">
-                  <input type="text" name="tingkat" class="form-control">
+                  <select class="form-control" name="tingkat" id="tingkat">
+                    <option value="">Please Select</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                </select>
                 </div>
               </div>
 						<div class="form-group row">

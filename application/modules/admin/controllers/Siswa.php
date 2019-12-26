@@ -55,18 +55,8 @@
 							$row[] = $Siswa_model->jenis_kelamin;
 							$row[] = $Siswa_model->tempat_lahir;
 							$row[] = $Siswa_model->tanggal_lahir;
-							$row[] = $Siswa_model->alamat;
 							$row[] = $Siswa_model->tahun_masuk;
 							$row[] = $Siswa_model->tingkat;
-							$row[] = $Siswa_model->status_tempat_tinggal;
-							$row[] = $Siswa_model->warga_negara;
-							$row[] = $Siswa_model->agama;
-							$row[] = $Siswa_model->nama_ayah;
-							$row[] = $Siswa_model->nama_ibu;
-							$row[] = $Siswa_model->nik_ayah;
-							$row[] = $Siswa_model->nik_ibu;
-							$row[] = $Siswa_model->status_siswa;
-							$row[] = $Siswa_model->id_kelas;
 
               $row[] ="
               <a href='siswa/edit/$Siswa_model->id_siswa'><i class='m-1 feather icon-edit-2'></i></a>
@@ -199,24 +189,24 @@ public function create_action()
 
     public function _rules()
     {
-$this->form_validation->set_rules('nik_siswa', 'nik_siswa', 'trim|required');
-$this->form_validation->set_rules('no_induk', 'no_induk', 'trim|required');
-$this->form_validation->set_rules('nama_siswa', 'nama_siswa', 'trim|required');
-$this->form_validation->set_rules('jenis_kelamin', 'jenis_kelamin', 'trim|required');
-$this->form_validation->set_rules('tempat_lahir', 'tempat_lahir', 'trim|required');
-$this->form_validation->set_rules('tanggal_lahir', 'tanggal_lahir', 'trim|required');
-$this->form_validation->set_rules('alamat', 'alamat', 'trim|required');
-$this->form_validation->set_rules('tahun_masuk', 'tahun_masuk', 'trim|required');
-$this->form_validation->set_rules('tingkat', 'tingkat', 'trim|required');
-$this->form_validation->set_rules('status_tempat_tinggal', 'status_tempat_tinggal', 'trim|required');
-$this->form_validation->set_rules('warga_negara', 'warga_negara', 'trim|required');
-$this->form_validation->set_rules('agama', 'agama', 'trim|required');
-$this->form_validation->set_rules('nama_ayah', 'nama_ayah', 'trim|required');
-$this->form_validation->set_rules('nama_ibu', 'nama_ibu', 'trim|required');
-$this->form_validation->set_rules('nik_ayah', 'nik_ayah', 'trim|required');
-$this->form_validation->set_rules('nik_ibu', 'nik_ibu', 'trim|required');
-$this->form_validation->set_rules('status_siswa', 'status_siswa', 'trim|required');
-$this->form_validation->set_rules('id_kelas', 'id_kelas', 'trim|required');
+// $this->form_validation->set_rules('nik_siswa', 'nik_siswa', 'trim|required');
+// $this->form_validation->set_rules('no_induk', 'no_induk', 'trim|required');
+// $this->form_validation->set_rules('nama_siswa', 'nama_siswa', 'trim|required');
+// $this->form_validation->set_rules('jenis_kelamin', 'jenis_kelamin', 'trim|required');
+// $this->form_validation->set_rules('tempat_lahir', 'tempat_lahir', 'trim|required');
+// $this->form_validation->set_rules('tanggal_lahir', 'tanggal_lahir', 'trim|required');
+// $this->form_validation->set_rules('alamat', 'alamat', 'trim|required');
+// $this->form_validation->set_rules('tahun_masuk', 'tahun_masuk', 'trim|required');
+// $this->form_validation->set_rules('tingkat', 'tingkat', 'trim|required');
+// $this->form_validation->set_rules('status_tempat_tinggal', 'status_tempat_tinggal', 'trim|required');
+// $this->form_validation->set_rules('warga_negara', 'warga_negara', 'trim|required');
+// $this->form_validation->set_rules('agama', 'agama', 'trim|required');
+// $this->form_validation->set_rules('nama_ayah', 'nama_ayah', 'trim|required');
+// $this->form_validation->set_rules('nama_ibu', 'nama_ibu', 'trim|required');
+// $this->form_validation->set_rules('nik_ayah', 'nik_ayah', 'trim|required');
+// $this->form_validation->set_rules('nik_ibu', 'nik_ibu', 'trim|required');
+// $this->form_validation->set_rules('status_siswa', 'status_siswa', 'trim|required');
+// $this->form_validation->set_rules('id_kelas', 'id_kelas', 'trim|required');
 
 
 	$this->form_validation->set_rules('id_siswa', 'id_siswa', 'trim');
