@@ -54,7 +54,7 @@
 						<div class="form-group row">
                 <label class="col-sm-2 col-form-label">Tahun Masuk</label>
                 <div class="col-sm-10">
-                  <input type="text" name="tahun_masuk" class="form-control">
+                  <input type="date" value="<?php echo date("Y-m-d"); ?>" name="tahun_masuk" class="form-control" readonly>
                 </div>
               </div>
 						<div class="form-group row">
