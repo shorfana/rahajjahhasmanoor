@@ -126,7 +126,7 @@
       $this->email->from('shorfanaiqbal98@gmail.com');
       $this->email->to($emailtujuan);
       $this->email->subject('Reset Password');
-      $this->email->message('Silahkan klik ini berikut untuk reset password '.$link);
+      $this->email->message('Silahkan klik link berikut untuk mereset password anda '.$link);
       $this->email->set_mailtype('html');
       $this->email->send();
    }
