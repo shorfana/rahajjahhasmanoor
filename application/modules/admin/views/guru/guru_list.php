@@ -20,10 +20,14 @@
                                  <table class="table crudtable">
                                      <thead>
                                        <tr>
-                                           <?php foreach ($datafield as $d): ?>
-                                             <th><?php echo str_replace("_"," ",$d) ?></th>
-                                           <?php endforeach; ?>
-                                           <th>aksi</th>
+                                           <?php //foreach ($datafield as $d): ?>
+                                             <?php //echo str_replace("_"," ",$d) ?>
+                                             <th>No</th>
+                                             <th>Nama Guru</th>
+                                             <th>NIK</th>
+                                             <th>NIP</th>
+                                             <th>Aksi</th>
+                                           <?php //endforeach; ?>
                                        </tr>
                                      </thead>
                                      <tbody></tbody>

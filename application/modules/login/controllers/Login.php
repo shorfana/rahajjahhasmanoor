@@ -17,7 +17,7 @@
 
         public function index()
         {
-          if($this->session->userdata('status')=='login'){
+          if($this->session->userdata('status')=='login_admin_ra'){
             redirect(base_url('admin'));
           }
             $this->load->view('login');
@@ -45,14 +45,14 @@
     		    $data_session = array(
                     'username' => $username,
                     'id_user' => $id_user,
-                    'status' => "login"
+                    'status' => "login_admin_ra"
                 );
             $this->session->set_userdata($data_session);
             // var_dump($data_session);die;
             redirect(base_url("admin"));
             echo "berhasil login";
     	}else{
-        echo "Gagal Login";
+        echo "<script type='text/javascript'>alert('Username atau password Salah!!!'); document.location='".base_url()."login"."' </script>";
       }
     }
 

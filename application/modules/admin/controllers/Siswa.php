@@ -39,6 +39,59 @@
           $this->template->load($data);
         }
 
+        public function siswa_alumni(){
+          $datasiswa=$this->Siswa_model->getDataTableAlumni();//panggil ke modell
+            $datafield=$this->Siswa_model->get_field();//panggil ke modell
+
+             $data = array(
+               'content'=>'admin/siswa/siswa_list_alumni',
+               'sidebar'=>'admin/sidebar',
+               'css'=>'admin/siswa/css',
+               'js'=>'admin/siswa/js_alumni',
+               'datasiswa'=>$datasiswa,
+               'datafield'=>$datafield,
+               'module'=>'admin',
+               'titlePage'=>'siswa alumni',
+               'controller'=>'siswa'
+              );
+            $this->template->load($data);
+        }
+
+        public function ajax_list_alumni()
+      {
+          $list = $this->Siswa_model->get_datatables();
+          $data = array();
+          $no = $_POST['start'];
+          foreach ($list as $Siswa_model) {
+              $no++;
+              $row = array();
+              $row[] = $no;
+							$row[] = $Siswa_model->nik_siswa;
+							$row[] = $Siswa_model->no_induk;
+							$row[] = $Siswa_model->nama_siswa;
+							$row[] = $Siswa_model->jenis_kelamin;
+							$row[] = $Siswa_model->tempat_lahir;
+							$row[] = $Siswa_model->tanggal_lahir;
+							$row[] = $Siswa_model->tahun_masuk;
+							$row[] = $Siswa_model->tingkat;
+
+              $row[] ="
+              <a href='siswa/edit/$Siswa_model->id_siswa'><i class='m-1 feather icon-edit-2'></i></a>
+              <a class='modalDelete' data-toggle='modal' data-target='#responsive-modal' value='$Siswa_model->id_siswa' href='#'><i class='feather icon-trash'></i></a>";
+              $data[] = $row;
+          }
+
+          $output = array(
+                          "draw" => $_POST['draw'],
+                          "recordsTotal" => $this->Siswa_model->count_all(),
+                          "recordsFiltered" => $this->Siswa_model->count_filtered(),
+                          "data" => $data,
+                  );
+          //output to json format
+          echo json_encode($output);
+      }
+
+
         //DataTable
         public function ajax_list()
       {
@@ -125,7 +178,6 @@ public function create_action()
 					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
 					'status_siswa' => $this->input->post('status_siswa',TRUE),
-					'id_kelas' => $this->input->post('id_kelas',TRUE),
 
 );
 
@@ -136,7 +188,7 @@ public function create_action()
     }
 
 
-    
+
 
     public function update_action()
     {

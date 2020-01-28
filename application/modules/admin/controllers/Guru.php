@@ -16,7 +16,7 @@
             //     redirect(base_url('login'));
             //   }
             // }
-            if(!$this->session->userdata('status')=='login'){
+            if(!$this->session->userdata('status')=='login_admin_ra'){
               redirect(base_url('login'));
             }
         }
@@ -49,7 +49,7 @@
               $no++;
               $row = array();
               $row[] = $no;
-							$row[] = $Guru_model->id_kelas;
+							// $row[] = $Guru_model->id_kelas;
 							$row[] = $Guru_model->nama_guru;
 							$row[] = $Guru_model->nik;
 							$row[] = $Guru_model->nip;

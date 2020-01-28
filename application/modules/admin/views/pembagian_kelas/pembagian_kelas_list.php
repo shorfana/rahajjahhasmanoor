@@ -19,14 +19,19 @@
                                            <th>No</th>
                                            <th>Nomer Induk</th>
                                            <th>Nama Siswa</th>
+                                           <th>Umur</th>
                                        </tr>
                                      </thead>
                                      <tbody>
                                        <?php $no = 1;foreach ($data_siswa as $d): ?>
+                                         <?php
+                                          $umur = date('Y', strtotime($d->tahun_masuk)) - date('Y', strtotime($d->tanggal_lahir));
+                                          ?>
                                         <tr>
                                           <td><?php echo $no ?></td>
                                           <td><?php echo $d->no_induk ?></td>
                                           <td><?php echo $d->nama_siswa ?></td>
+                                          <td><?php echo $umur ?></td>
                                         </tr>
                                         <?php $no++ ?>
                                        <?php endforeach; ?>

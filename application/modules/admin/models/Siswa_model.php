@@ -52,7 +52,7 @@
 							$this->column_search[]='nik_ibu';
 							$this->column_search[]='status_siswa';
 							$this->column_search[]='id_kelas';
-							
+
         }
 
         // get all
@@ -64,6 +64,13 @@
 
         function getDataTable(){
             $this->db->select($this->select);
+            $this->db->order_by($this->id, 'DESC');
+            return $this->db->get($this->table)->result();
+        }
+
+        function getDataTableAlumni(){
+            $this->db->select($this->select);
+            // $this->db->where('status_siswa', 'alumni');
             $this->db->order_by($this->id, 'DESC');
             return $this->db->get($this->table)->result();
         }
