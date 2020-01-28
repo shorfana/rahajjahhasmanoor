@@ -5,46 +5,45 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="keo_foo_widget keo_foo_about">
-                        <h4 class="widget_hdg p_relative">About Us</h4>
-                        <p class="white_text">Alterum accommodare duo cu. Iusen labore luptatum efficiendi ex, vim enim rebum honestatis, his consulatu pertinacia deterruisset.</p>
-                        <p class="white_text">Duis eget velit sodales, tristique dui a, malesuada erat. Phasellus at neque augue. Nullam convallis tincidunt tincidunt. Maecenas a libero aliquam, sollicitudin lectus vel, ultrices lacus aliquam placerat.</p>
-                        <img src="images/logo.png" alt="">
+                        <h4 class="widget_hdg p_relative">Tentang Kami</h4>
+                        <p class="white_text">RA Hajjah Hasmah Noor Sunter Agung Jakarta Utara berdiri sejak tahun 1991, dibangun serta diprakarsai oleh seorang tokoh sekaligus pendirinya yaitu Dra. Hj. Andi Ismariskiah Sumintapura untuk penataan fasilitas pendidikan di daerah Ancol Selatan Sunter Agung Jakarta Utara</p>
+                        <img src="images/logotk.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="keo_foo_widget full_width">
-                        <h4 class="widget_hdg p_relative">Latest News</h4>
+                        <h4 class="widget_hdg p_relative">Berita Terbaru</h4>
                         <ul class="keo_post_list">
                             <li class="full_width">
                                 <div class="keo_post_fig full_width">
                                     <figure class="left">
-                                        <img src="<?php echo base_url() ?>front/extra-images/blog_post_01.jpg" alt="">
+                                        <img src="<?php echo base_url() ?>front/extra-images/blog_post_01.png" alt="">
                                     </figure>
                                     <div class="keo_post_text">
-                                        <p class="white_text">Play is our brain’s favorite way of learning</p>
-                                        <span>Feb 17, 2019</span>
+                                        <p class="white_text">Cara Kreatif Mengenalkan Tanaman Bayam</p>
+                                        <span>Jan 27, 2020</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="full_width">
                                 <div class="keo_post_fig full_width">
                                     <figure class="left">
-                                        <img src="extra-images/blog_post_02.jpg" alt="">
+                                        <img src="<?php echo base_url() ?>front/extra-images/blog_post_02.png" alt="">
                                     </figure>
                                     <div class="keo_post_text">
-                                        <p class="white_text">Where well rounded starts with well educated</p>
-                                        <span>Feb 15, 2019</span>
+                                        <p class="white_text">Selamat Hari Guru</p>
+                                        <span>Nov 26, 2019</span>
                                     </div>
                                 </div>
                             </li>
                             <li class="full_width">
                                 <div class="keo_post_fig full_width">
                                     <figure class="left">
-                                        <img src="extra-images/blog_post_03.jpg" alt="">
+                                        <img src="<?php echo base_url() ?>front/extra-images/blog_post_03.png" alt="">
                                     </figure>
                                     <div class="keo_post_text">
-                                        <p class="white_text">An inspired approach to children education</p>
-                                        <span>Feb 14, 2019</span>
+                                        <p class="white_text">Membuat Mahkota Dari Daun</p>
+                                        <span>Jan 24, 2019</span>
                                     </div>
                                 </div>
                             </li>
@@ -53,14 +52,13 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="keo_foo_widget keo_foo_feature">
-                        <h4 class="widget_hdg p_relative">Our Features</h4>
-                        <p class="white_text">Nulla molestie sed lorem non suscipit. Donec at cursusse. Duis condimen tum posuere purus, at venenatis tellus mollis. Vestibulum convallis venenatis. Sed ut blandit mauris.</p>
+                        <h4 class="widget_hdg p_relative">Pelayanan Kami</h4>
+                        <p class="white_text">Raudhatul Athfal (RA) ini berlokasi di Ancol Selatan Sunter Agung Jakarta Utara. Sekolah RA ini adalah sekolah yang banyak diminati oleh ibu – ibu yang memiliki anak usia 5 – 6 tahun untuk disekolahkan di tempat ini. </p>
                         <ul class="pl-0">
-                            <li><i class="ti-check-box"></i>Professional & friendly teachers</li>
-                            <li><i class="ti-check-box"></i>Well-designed classess</li>
-                            <li><i class="ti-check-box"></i>Positive learning environment</li>
-                            <li><i class="ti-check-box"></i>Competitive pricing</li>
-                            <li><i class="ti-check-box"></i>Modern equipments & facilities</li>
+                            <li><i class="ti-check-box"></i>Pengajar profesional dan ramah</li>
+                            <li><i class="ti-check-box"></i>Biaya yang murah</li>
+                            <li><i class="ti-check-box"></i>Lingkungan belajar yang positif</li>
+                            <li><i class="ti-check-box"></i>Fasilitas yang lengkap</li>
                         </ul>
                     </div>
                 </div>
@@ -72,13 +70,10 @@
             <div class="keo_copyright_text text-center">
                 <ul class="keo_social_link">
                     <li>
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-instagram"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
+                        <a href="https://www.facebook.com/pages/Yayasan-Hajjah-Hasmah-Noor/125736020953436?ref=br_rs"><i class="ti-facebook"></i></a>
                     </li>
                 </ul>
-                ©2019 Wonderland. All Rights Reserved. Designed by kode4everyone.
+                ©2019 RA Hajjah Hasmah Noor.
             </div>
         </div>
     </div>

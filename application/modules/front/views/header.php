@@ -26,7 +26,7 @@
                     <div class="keo_top_ui left">
                         <ul>
                             <li>Jln. RS Paru-paru, Jakarta Utara 14350. </li>
-                            <li>0878 888888</li>
+                            <li>021 64711160</li>
                         </ul>
                     </div>
                     <div class="keo_login_lement right">
@@ -35,7 +35,7 @@
                                 Bahasa
                                 <i class="ti-angle-down"></i>
                                 <ul class="keo_sub_lang">
-                                    <li>English</li>
+                                    <li>English (Belum Tersedia)</li>
                                 </ul>
                             </li>
                             <li class="login-link"> <a href="<?php base_url() ?>login">Log In</a></li>
@@ -49,7 +49,7 @@
                 <div class="container">
                     <div class="keo_logo text-center left">
                         <a href="<?php echo base_url() ?>">
-                            <img src="<?php echo base_url() ?>front/images/logotk .png" alt="">
+                            <img src="<?php echo base_url() ?>front/images/logotk.png" alt="">
                         </a>
                     </div>
                     <div class="keo_nav text-center left">
@@ -58,7 +58,7 @@
                           <li>
                               <a href="javascript:void(0)">Profil <i class="ti-angle-down"></i></a>
                               <ul class="time">
-                                  <li><a href="<?php echo base_url() ?>about">Sejarah Singkat</a></li>
+                                  <li><a href="<?php echo base_url() ?>front/about">Tentang Kami</a></li>
                                   <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
                               </ul>
                           </li>
@@ -66,18 +66,15 @@
                               <a href="javascript:void(0)">Media <i class="ti-angle-down"></i></a>
                               <ul class="time">
                                   <li><a href="<?php echo base_url() ?>front/gallery">Galeri</a></li>
-                                  <li><a href="<?php echo base_url() ?>front/page404">Video</a></li>
                               </ul>
                           </li>
                             <li>
                                 <a href="javascript:void(0)">Akademik <i class="ti-angle-down"></i></a>
                                 <ul class="time">
-                                    <li><a href="<?php echo base_url() ?>front/classListing">Kelas</a></li>
                                     <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
-                            <li><a href="<?php echo base_url() ?>front/eventListing">Acara</a></li>
                             <li><a href="<?php echo base_url() ?>front/contact">Kontak Kami</a></li>
                         </ul>
                     </div>

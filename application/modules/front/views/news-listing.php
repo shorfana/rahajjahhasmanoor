@@ -18,24 +18,24 @@
             <section class="keo_blog_listing_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
-                        <h3>Latest News</h3>
+                        <h3>Berita Terbaru</h3>
                         <img src="images/heading-green.png" alt="">
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-lg-6">
                             <div class="keo_what_new_wrap">
                                 <figure>
-                                    <img src="extra-images/blog_listing_01.jpg" alt="">
+                                    <img src="extra-images/blog_listing_01.png" alt="">
                                 </figure>
                                 <div class="keo_what_new_desc">
-                                    <h4><a href="#">Storytelling opens the world to discovery</a></h4>
-                                    <p>Sed iaculis tortor magna, at tincidunt mi imperdiet in. Cras semper massa blandit quam varius, tincidunt imperdiet tellus accumsan. Vestibulum sagittis justo leo, bibendum ullamcorper arcu bibendum vitae. Integer convallis neque imperdiet consequat consequat. Phasellus at feugiat diam.</p>
+                                    <h4><a href="#">Cara Kreatif Mengenalkan Tanaman Bayam</a></h4>
+                                    <p>Para Siswa belajar membuat prakarya yang kreatif dari tanaman bayam. Hal ini bertujuan untuk meningkatkan kreatifitas siswa dan sekaligus mengenalkan tanaman bayam beserta manfaatnya</p>
                                     <div class="what_new_meta">
-                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">17 <span class="d-block text-uppercase">FEB</span></div>
+                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">27 <span class="d-block text-uppercase">JAN</span></div>
                                         <ul class="">
-                                            <li><a href="#">Jack Nolan</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">3 Comments</a></li>
+                                            <li><a href="#">Admin</a></li>
+                                            <li><a href="#">Berita</a></li>
+                                            <li><a href="#">0 Komentar</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -44,17 +44,17 @@
                         <div class="col-sm-6 col-lg-6">
                             <div class="keo_what_new_wrap">
                                 <figure>
-                                    <img src="extra-images/blog_listing_02.jpg" alt="">
+                                    <img src="extra-images/blog_listing_02.png" alt="">
                                 </figure>
                                 <div class="keo_what_new_desc">
-                                    <h4><a href="#">How to prepair your child for their first day</a></h4>
-                                    <p>Sed iaculis tortor magna, at tincidunt mi imperdiet in. Cras semper massa blandit quam varius, tincidunt imperdiet tellus accumsan. Vestibulum sagittis justo leo, bibendum ullamcorper arcu bibendum vitae. Integer convallis neque imperdiet consequat consequat. Phasellus at feugiat diam.</p>
+                                    <h4><a href="#">Selamat Hari Guru</a></h4>
+                                    <p>Setiap tanggal 25 November diperingati sebagai Hari Guru di Indonesia. Pada kesempatan ini siswa beserta guru mengadakan acara yang bertemakan guru.</p>
                                     <div class="what_new_meta">
-                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">17 <span class="d-block text-uppercase">FEB</span></div>
+                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">26 <span class="d-block text-uppercase">NOV</span></div>
                                         <ul class="">
-                                            <li><a href="#">Jack Nolan</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">3 Comments</a></li>
+                                            <li><a href="#">Admin</a></li>
+                                            <li><a href="#">Berita</a></li>
+                                            <li><a href="#">0 Komentar</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -63,17 +63,17 @@
                         <div class="col-sm-6 col-lg-6">
                             <div class="keo_what_new_wrap">
                                 <figure>
-                                    <img src="extra-images/blog_listing_03.jpg" alt="">
+                                    <img src="extra-images/blog_listing_03.png" alt="">
                                 </figure>
                                 <div class="keo_what_new_desc">
-                                    <h4><a href="#">Learning from playing: It's all about fun</a></h4>
-                                    <p>Sed iaculis tortor magna, at tincidunt mi imperdiet in. Cras semper massa blandit quam varius, tincidunt imperdiet tellus accumsan. Vestibulum sagittis justo leo, bibendum ullamcorper arcu bibendum vitae. Integer convallis neque imperdiet consequat consequat. Phasellus at feugiat diam.</p>
+                                    <h4><a href="#">Membuat Mahkota dari Daun</a></h4>
+                                    <p>Membuat suatu kerajinan dipercayai dapat meningkatkan kreatifitas anak. Oleh karena itu pada tgl 24 Januari, para pengajar membimbing siswa untuk membuat mahkota yang berbahan daun.</p>
                                     <div class="what_new_meta">
-                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">17 <span class="d-block text-uppercase">FEB</span></div>
+                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">24 <span class="d-block text-uppercase">JAN</span></div>
                                         <ul class="">
-                                            <li><a href="#">Jack Nolan</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">3 Comments</a></li>
+                                            <li><a href="#">Admin</a></li>
+                                            <li><a href="#">Berita</a></li>
+                                            <li><a href="#">0 Komentar</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -82,17 +82,17 @@
                         <div class="col-sm-6 col-lg-6">
                             <div class="keo_what_new_wrap">
                                 <figure>
-                                    <img src="extra-images/blog_listing_04.jpg" alt="">
+                                    <img src="extra-images/blog_listing_04.png" alt="">
                                 </figure>
                                 <div class="keo_what_new_desc">
-                                    <h4><a href="#">Kids & chores: The struggle is real</a></h4>
-                                    <p>Sed iaculis tortor magna, at tincidunt mi imperdiet in. Cras semper massa blandit quam varius, tincidunt imperdiet tellus accumsan. Vestibulum sagittis justo leo, bibendum ullamcorper arcu bibendum vitae. Integer convallis neque imperdiet consequat consequat. Phasellus at feugiat diam.</p>
+                                    <h4><a href="#">Workshop dan lomba mewarnai RA Hajjah Hasmah Noor bersama GREEBEL</a></h4>
+                                    <p>GREEBEL adalah salah satu brand alat tulis yang sangat berkembang di lndonesia diawali dengan produk pensil warna dan pensil gras</p>
                                     <div class="what_new_meta">
-                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">17 <span class="d-block text-uppercase">FEB</span></div>
+                                        <div class="date theme_bg left flex-column white_text text-center d-flex justify-content-center align-items-center">20 <span class="d-block text-uppercase">JAN</span></div>
                                         <ul class="">
-                                            <li><a href="#">Jack Nolan</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">3 Comments</a></li>
+                                            <li><a href="#">Admin</a></li>
+                                            <li><a href="#">Berita</a></li>
+                                            <li><a href="#">0 Komentar</a></li>
                                         </ul>
                                     </div>
                                 </div>

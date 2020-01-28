@@ -20,75 +20,74 @@
             <section class="keo_gallery_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
-                        <h4>Gallery</h4>
+                        <h4>Galeri</h4>
                         <img class="mb_20" src="images/heading-green.png" alt="">
                     </div>
                     <div class="keo_gallery_outer">
                         <ul class="keo_filter_button isotopeFilter list_style_none pl-0 text-center">
-                            <li class="active"><a data-filter="*" class="current" href="#">All Photos</a></li>
-                            <li><a data-filter=".filter_i1" href="#">Classroom</a></li>
-                            <li><a data-filter=".filter_i2" href="#">Activities</a></li>
-                            <li><a data-filter=".filter_i3" href="#">Facilities</a></li>
+                            <li class="active"><a data-filter="*" class="current" href="#">Semua Foto</a></li>
+                            <li><a data-filter=".filter_i1" href="#">Lomba</a></li>
+                            <li><a data-filter=".filter_i2" href="#">Kegiatan</a></li>
                         </ul>
                         <div class="isotopeContainer isotop-masonry isotop-colunm4 isotop-gutter isotope-hover2 row">
                             <div class="col-lg-3 col-md-4 isotope-item filter_i2 filter_i3">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_01.jpg" alt="">
+                                    <img src="extra-images/gallery_01.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i2">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_02.jpg" alt="">
+                                    <img src="extra-images/gallery_02.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i3 filter_i1">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_03.jpg" alt="">
+                                    <img src="extra-images/gallery_03.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i1">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_04.jpg" alt="">
+                                    <img src="extra-images/gallery_04.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i1 filter_i3">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_05.jpg" alt="">
+                                    <img src="extra-images/gallery_05.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i3 filter_i1">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_06.jpg" alt="">
+                                    <img src="extra-images/gallery_06.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i2">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_07.jpg" alt="">
+                                    <img src="extra-images/gallery_07.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i3">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_08.jpg" alt="">
+                                    <img src="extra-images/gallery_08.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i1">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_09.jpg" alt="">
+                                    <img src="extra-images/gallery_09.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i2 filter_i3">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_10.jpg" alt="">
+                                    <img src="extra-images/gallery_10.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i3">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_11.jpg" alt="">
+                                    <img src="extra-images/gallery_11.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 isotope-item filter_i1">
                                 <div class="keo_gallery_wrap text-center">
-                                    <img src="extra-images/gallery_12.jpg" alt="">
+                                    <img src="extra-images/gallery_12.png" alt="">
                                 </div>
                             </div>
                         </div>

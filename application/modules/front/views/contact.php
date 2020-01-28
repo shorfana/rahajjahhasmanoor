@@ -6,8 +6,7 @@
                 <div class="keo_breadcrumb">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><span>Contact Us</span></li>
+                        <li><span>Kontak Kami</span></li>
                     </ul>
                 </div>
             </div>
@@ -15,7 +14,7 @@
         <section class="keo_sub_banner keo_bg_img p_relative">
             <div class="container">
                 <div class="keo_sub_banner_des text-center p_relative">
-                    <h3 class="white_text">Contact Us</h3>
+                    <h3 class="white_text">Kontak Kami</h3>
                 </div>
             </div>
         </section><!-- Slider Wrap End -->
@@ -35,8 +34,8 @@
                                     </span>
                                 </div>
                                 <div class="keo_contact_info_des">
-                                    <h4>Address</h4>
-                                    <p>236 Franklin Ave <span class="d_block">Brooklyn, NY 11238</span></p>
+                                    <h4>Alamat</h4>
+                                    <p>Jl. RE. Martadinata <span class="d_block">Kel. Sunter, Jakarta Utara</span></p>
                                 </div>
                             </div>
                         </div>
@@ -48,8 +47,8 @@
                                     </span>
                                 </div>
                                 <div class="keo_contact_info_des">
-                                    <h4>Phone & Email</h4>
-                                    <p>+1 347-318-3644 <span class="d_block">help@wonderland.com</span></p>
+                                    <h4>Telepon & Email</h4>
+                                    <p>021 64711160 <span class="d_block">rahajjah@gmail.com</span></p>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +60,8 @@
                                     </span>
                                 </div>
                                 <div class="keo_contact_info_des">
-                                    <h4>Business Hours</h4>
-                                    <p>Monday to Friday: <span class="d_block">8.00 AM - 6.00 PM</span></p>
+                                    <h4>Jam Kerja</h4>
+                                    <p>Senin s.d. Jumat : <span class="d_block">08.00 - 16.00 WIB</span></p>
                                 </div>
                             </div>
                         </div>
@@ -80,37 +79,37 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="keo_touch_wrap mb_30">
-                                <input type="text" name="name" placeholder="Your Name*">
+                                <input type="text" name="name" placeholder="Nama Anda*">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="keo_touch_wrap mb_30">
-                                <input type="text" name="email" placeholder="Your Email*">
+                                <input type="text" name="email" placeholder="Email Anda*">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="keo_touch_wrap mb_30">
-                                <input type="text" name="subject" placeholder="Subject (Optional)">
+                                <input type="text" name="subject" placeholder="Subject (Pilihan)">
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="keo_touch_wrap mb_30">
-                                <textarea placeholder="Your Message*"></textarea>
+                                <textarea placeholder="Pesan Anda*"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="keo_touch_wrap text-center">
-                                <button class="text-uppercase d_inline_block time">Send us</button>
+                                <button class="text-uppercase d_inline_block time">Kirim</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section><!-- Get In Touch Form Wrap End -->
 
-            <!--Map Location Start -->
-            <div class="keo_map_location">
+            <!-- Map Location Start -->
+            <!-- <div class="keo_map_location">
                 <div id="map-canvas" class="map-canvas"></div>
-            </div>
+            </div> -->
             <!--Map Location Start -->
 
         </main><!-- Main Content End -->
