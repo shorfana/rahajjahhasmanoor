@@ -2,9 +2,9 @@
         <!-- Slider Wrap Start -->
         <section class="keo_banner keo_bg_img">
             <div class="banner_des text-center">
-                <p class="text-uppercase">Dedicated  to excellence</p>
-                <h3>Making your child's <span class="d-block">world better</span></h3>
-                <a class="text-uppercase" href="<?php base_url() ?>pendaftaran">Daftar Sekarang</a>
+                <p class="text-uppercase">Dedikasi untuk Kualitas</p>
+                <h3>Mendidik Anak-anak <span class="d-block">Menjadi Cerdas dan Bertakwa</span></h3>
+                <a class="text-uppercase" href="<?php base_url() ?>pendaftaran">Hubungi Kami</a>
             </div>
         </section><!-- Slider Wrap End -->
         <!-- Main Content Start -->
@@ -13,7 +13,7 @@
             <section class="keo_why_wonderland_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
-                        <h4>Why Wonderland</h4>
+                        <h4>Kenapa RA. Hajjah Hasmah Noor?</h4>
                         <img src="<?php echo base_url() ?>front/images/heading-green.png" alt="">
                     </div>
                     <div class="row">
@@ -24,8 +24,7 @@
                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span>
                                     </span>
                                 </div>
-                                <h4>Friendly <span class="d_block">Teachers</span></h4>
-                                <p>Integer vitae blandit ultricie aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum.</p>
+                                <h4>Pengajar <span class="d_block">Ramah</span></h4>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -35,8 +34,7 @@
                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span>
                                     </span>
                                 </div>
-                                <h4>Delicious <span class="d_block">Meals</span></h4>
-                                <p>Integer vitae blandit ultricie aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum.</p>
+                                <h4>Program <span class="d_block">Kreatif</span></h4>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -46,8 +44,7 @@
                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span>
                                     </span>
                                 </div>
-                                <h4>Well-designed <span class="d_block">Classes</span></h4>
-                                <p>Integer vitae blandit ultricie aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum.</p>
+                                <h4>Fasilitas <span class="d_block">Lengkap</span></h4>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -57,8 +54,7 @@
                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span>
                                     </span>
                                 </div>
-                                <h4>Great <span class="d_block">Activities</span></h4>
-                                <p>Integer vitae blandit ultricie aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum.</p>
+                                <h4>Kegiatan <span class="d_block">Asik</span></h4>
                             </div>
                         </div>
                     </div>
@@ -67,7 +63,7 @@
             <!-- Why Wonderland Wrap End -->
 
             <!-- Classes Style 02 Wrap Start -->
-            <section class="keo_class2_bg keo_bg_img">
+            <!-- <section class="keo_class2_bg keo_bg_img">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
                         <h4>Your Child Classes</h4>
@@ -188,10 +184,11 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- Classes Style 02 Wrap End -->
+            </section> -->
+            <!-- Classes Style 02 Wrap End -->
 
             <!-- Facts and Figure Wrap Start -->
-            <section class="keo_index2_facts_bg keo_bg_img">
+            <!-- <section class="keo_index2_facts_bg keo_bg_img">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6">
@@ -220,10 +217,11 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- Facts and Figure Wrap End -->
+            </section> -->
+            <!-- Facts and Figure Wrap End -->
 
             <!-- Meet Our Teachers Wrap Start -->
-            <section class="keo_index2_teacher_bg">
+            <!-- <section class="keo_index2_teacher_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
                         <h4>Meet Our Teachers</h4>
@@ -295,11 +293,12 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- Meet Our Teachers Wrap End -->
+            </section> -->
+            <!-- Meet Our Teachers Wrap End -->
 
             <!-- Testimonial Wrap Start -->
-            <section class="keo_testimonial_bg keo_bg_img">
-                <div class="container">
+            <!-- <section class="keo_testimonial_bg keo_bg_img"> -->
+                <!-- <div class="container">
                     <div class="keo_hdg_01 text-center">
                         <h4 class="white_text">Testimonial</h4>
                         <img class="" src="<?php echo base_url() ?>front/images/heading-white.png" alt="">
@@ -325,10 +324,11 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- Testimonial Wrap End -->
+            </section> -->
+            <!-- Testimonial Wrap End -->
 
             <!-- Event Index 02 Wrap Start -->
-            <section class="keo_event2_bg">
+            <!-- <section class="keo_event2_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
                         <h4>Our Event</h4>
@@ -471,7 +471,8 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- Event Index 02 Wrap End -->
+            </section> -->
+            <!-- Event Index 02 Wrap End -->
 
             <!-- Photo Gallery Wrap Start -->
             <section class="keo_photo_bg">
@@ -483,40 +484,40 @@
                 </div>
                 <div class="keo_photo_gallery_slider popup-gallery" id="keo_photo_gallery_slider">
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_07.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_07.jpg" alt="">
+                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_07.png" title="Photo gallery">
+                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_07.png" alt="">
                         </a>
                     </div>
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_08.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_08.jpg" alt="">
+                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_08.png" title="Photo gallery">
+                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_08.png" alt="">
                         </a>
                     </div>
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_01.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_01.jpg" alt="">
+                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_01.png" title="Photo gallery">
+                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_01.png" alt="">
                         </a>
                     </div>
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_02.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_02.jpg" alt="">
+                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_02.png" title="Photo gallery">
+                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_02.png" alt="">
                         </a>
                     </div>
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_03.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_03.jpg" alt="">
+                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_03.png" title="Photo gallery">
+                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_03.png" alt="">
                         </a>
                     </div>
                     <div class="keo_photo_wrap p_relative">
-                        <a class="mfp-img-mobile" href="<?php echo base_url() ?>front/extra-images/home_gallery_04.jpg" title="Photo gallery">
-                            <img src="<?php echo base_url() ?>front/extra-images/home_gallery_04.jpg" alt="">
+                        <a class="mfp-img-mobile" href="front/extra-images/home_gallery_04.png" title="Photo gallery">
+                            <img src="front/extra-images/home_gallery_04.png" alt="">
                         </a>
                     </div>
                 </div>
             </section><!-- Photo Gallery Wrap End -->
 
             <!-- Whats New Wrap Start -->
-            <section class="keo_what_new_bg">
+            <!-- <section class="keo_what_new_bg">
                 <div class="container">
                     <div class="keo_hdg_01 text-center">
                         <h4>What’s New</h4>
@@ -585,6 +586,7 @@
                         <a class="text-uppercase" href="#">View all posts</a>
                     </div>
                 </div>
-            </section><!-- Whats New Wrap End -->
+            </section> -->
+            <!-- Whats New Wrap End -->
 
         </main><!-- Main Content End -->

@@ -59,7 +59,7 @@
                               <a href="javascript:void(0)">Profil <i class="ti-angle-down"></i></a>
                               <ul class="time">
                                   <li><a href="<?php echo base_url() ?>front/about">Tentang Kami</a></li>
-                                  <li><a href="<?php echo base_url() ?>front/page404">Visi Misi</a></li>
+                                  <li><a href="<?php echo base_url() ?>front/services">Visi Misi</a></li>
                               </ul>
                           </li>
                           <li>
@@ -68,12 +68,6 @@
                                   <li><a href="<?php echo base_url() ?>front/gallery">Galeri</a></li>
                               </ul>
                           </li>
-                            <li>
-                                <a href="javascript:void(0)">Akademik <i class="ti-angle-down"></i></a>
-                                <ul class="time">
-                                    <li><a href="<?php echo base_url() ?>front/teacherListing">Pengajar</a></li>
-                                </ul>
-                            </li>
                             <li><a href="<?php echo base_url() ?>front/newsListing">Berita</a></li>
                             <li><a href="<?php echo base_url() ?>front/contact">Kontak Kami</a></li>
                         </ul>

@@ -1066,7 +1066,7 @@ Input, textarea:	'Lato', sans-serif;
 	==============================================================
 */
 .keo_sub_banner{
-	background-image: url(../extra-images/sub_banner_01.png);
+	background-image: url(..\extra-images\sub_banner_01.png);
 	padding: 170px 0px;
 }
 .keo_sub_banner:before{
