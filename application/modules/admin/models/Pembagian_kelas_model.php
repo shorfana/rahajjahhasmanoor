@@ -70,6 +70,52 @@
           return $query->result();
         }
 
+        function getSiswaPembagian(){
+          $dml = "SELECT * FROM siswa";
+          $query = $this->db->query($dml);
+          return $query->result();
+        }
+
+        function update_kelas($data,$table,$where,$value){
+           $this->db->where($where,$value);
+           $this->db->update($table,$data);
+           if($this->db->affected_rows()>0){
+             return true;
+           }else{
+             return false;
+           }
+          }
+
+          function countid_kelas_1(){
+            $dml = "SELECT COUNT(id_kelas) as total from siswa where id_kelas = '1'";
+            $query = $this->db->query($dml);
+            return $query->result();
+          }
+
+          function countid_kelas_2(){
+            $dml = "SELECT COUNT(id_kelas) as total from siswa where id_kelas = '2'";
+            $query = $this->db->query($dml);
+            return $query->result();
+          }
+
+          function countid_kelas_3(){
+            $dml = "SELECT COUNT(id_kelas) as total from siswa where id_kelas = '3'";
+            $query = $this->db->query($dml);
+            return $query->result();
+          }
+
+          function countid_kelas_4(){
+            $dml = "SELECT COUNT(id_kelas) as total from siswa where id_kelas = '4'";
+            $query = $this->db->query($dml);
+            return $query->result();
+          }
+
+          function countid_kelas_5(){
+            $dml = "SELECT COUNT(id_kelas) as total from siswa where id_kelas = '5'";
+            $query = $this->db->query($dml);
+            return $query->result();
+          }
+
         // get all
         function get_all()
         {
@@ -78,9 +124,13 @@
         }
 
         function getDataTable(){
-            $this->db->select($this->select);
-            $this->db->order_by($this->id, 'DESC');
-            return $this->db->get($this->table)->result();
+          $dml = "SELECT * FROM siswa WHERE status_siswa = 'belum aktif'";
+          $query = $this->db->query($dml);
+          return $query->result();
+            // $this->db->select($this->select);
+            // $this->db->order_by($this->id, 'DESC');
+            // $this->db->where('status_siswa','belum aktif');
+            // return $this->db->get($this->table)->result();
         }
 
         //get field

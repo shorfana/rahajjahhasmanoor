@@ -15,7 +15,7 @@
                 </div>
                 <div class="text-center">
                   <h1 class="mb-2 text-white">Halo Admin!,</h1>
-                  <p class="m-auto w-75">Ini adalah contoh dari <strong>dashboard</strong> kostlab. <br>Silahkan ubah di view yaa.</p>
+                  <p class="m-auto w-75">Ini adalah halaman <strong>dashboard</strong> Ra Hajjah Hasmah Noor</p>
                 </div>
               </div>
             </div>
@@ -29,8 +29,8 @@
                           <i class="feather icon-users text-primary font-medium-5"></i>
                       </div>
                   </div>
-                  <h2 class="text-bold-700 mt-1 mb-25">12k</h2>
-                  <p class="mb-0">Total Pengguna</p>
+                  <h2 class="text-bold-700 mt-1 mb-25">90 Orang</h2>
+                  <p class="mb-0">Total Murid</p>
               </div>
               <div class="card-content">
                   <div id="subscribe-gain-chart"></div>
@@ -45,8 +45,8 @@
                             <i class="feather icon-package text-warning font-medium-5"></i>
                         </div>
                     </div>
-                    <h2 class="text-bold-700 mt-1 mb-25">25k</h2>
-                    <p class="mb-0">Total Order</p>
+                    <h2 class="text-bold-700 mt-1 mb-25">Aman</h2>
+                    <p class="mb-0">Kondisi Logistik</p>
                 </div>
                 <div class="card-content">
                     <div id="orders-received-chart"></div>

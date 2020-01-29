@@ -169,7 +169,7 @@ public function create_action()
 					'tanggal_lahir' => $this->input->post('tanggal_lahir',TRUE),
 					'alamat' => $this->input->post('alamat',TRUE),
 					'tahun_masuk' => $this->input->post('tahun_masuk',TRUE),
-					'tingkat' => $this->input->post('tingkat',TRUE),
+					'tingkat' => '',
 					'status_tempat_tinggal' => $this->input->post('status_tempat_tinggal',TRUE),
 					'warga_negara' => $this->input->post('warga_negara',TRUE),
 					'agama' => $this->input->post('agama',TRUE),
@@ -177,7 +177,7 @@ public function create_action()
 					'nama_ibu' => $this->input->post('nama_ibu',TRUE),
 					'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 					'nik_ibu' => $this->input->post('nik_ibu',TRUE),
-					'status_siswa' => $this->input->post('status_siswa',TRUE),
+					'status_siswa' => 'belum aktif',
 
 );
 

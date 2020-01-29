@@ -9,7 +9,12 @@
                      <div class="card-header">
                          <h4 class="card-title">Data siswa</h4>
                      </div>
-                     <div class="card-content">
+                     <div class="" style="margin-top: 5px; margin-left: 52%;">
+                       <a href="<?= site_url($module.'/pembagian_kelas/bagi') ?>"><button type="button" class="btn btn-primary round waves-effect waves-light">
+                             Mulai Pembagian Siswa
+                            </button>
+                       </a>
+                     </div>
 
                          <div class="card-body card-dashboard">
                              <div class="table-responsive">

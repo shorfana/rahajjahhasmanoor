@@ -56,7 +56,7 @@
                     <div class="card rounded-0 mb-0 px-2 py-1">
                         <div class="card-header pb-1">
                             <div class="card-title">
-                                <h4 class="mb-0">Recover your password</h4>
+                                <h4 class="mb-0">Reset Password Anda</h4>
                             </div>
                         </div>
                         <p class="px-2 mb-0">Silahkan masukan password baru anda.</p>

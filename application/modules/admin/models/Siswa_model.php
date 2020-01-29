@@ -68,6 +68,8 @@
             return $this->db->get($this->table)->result();
         }
 
+
+
         function getDataTableAlumni(){
             $this->db->select($this->select);
             // $this->db->where('status_siswa', 'alumni');
@@ -171,6 +173,8 @@
             $this->db->from($this->table);
             return $this->db->count_all_results();
         }
+
+
 
     }
 

@@ -56,10 +56,10 @@
                     <div class="card rounded-0 mb-0 px-2 py-1">
                         <div class="card-header pb-1">
                             <div class="card-title">
-                                <h4 class="mb-0">Recover your password</h4>
+                                <h4 class="mb-0">Pulihkan Password</h4>
                             </div>
                         </div>
-                        <p class="px-2 mb-0">Please enter your email address and we'll send you instructions on how to reset your password.</p>
+                        <p class="px-2 mb-0">Silahkan masukkan email anda untuk reset password.</p>
                         <div class="card-content">
                             <div class="card-body">
                                 <form action="<?php base_url() ?>login/lupa_password_act" method="post">

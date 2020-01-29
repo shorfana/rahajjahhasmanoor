@@ -198,6 +198,69 @@ public function create_action()
         }
     }
 
+    public function bagi(){
+      $data_siswa = $this->Pembagian_kelas_model->getDataTable();
+      // var_dump($data_siswa);die;
+      foreach ($data_siswa as $d) {
+        $id = $d->id_siswa;
+        // var_dump($id);die;
+        $umur = date('Y', strtotime($d->tahun_masuk)) - date('Y', strtotime($d->tanggal_lahir));
+        if ($umur == 4 && 5) {
+          $id_4 = $this->Pembagian_kelas_model->countid_kelas_4();
+          $id_5 = $this->Pembagian_kelas_model->countid_kelas_5();
+          if($id_4->total <= 20){
+          $data = array(
+            'tingkat' => 'A',
+            'status_siswa' => 'aktif',
+            'id_kelas' => 4
+          );
+            $this->Pembagian_kelas_model->update_kelas($data,'siswa','id_siswa',$id);
+            // redirect(base_url()."admin/pembagian_kelas");
+          }else {
+            $data = array(
+              'tingkat' => 'A',
+              'status_siswa' => 'aktif',
+              'id_kelas' => 5
+            );
+              $this->Pembagian_kelas_model->update_kelas($data,'siswa','id_siswa',$id);
+              // redirect(base_url()."admin/pembagian_kelas");
+          }
+        }elseif ($umur >= 6) {
+          $id_1 = $this->Pembagian_kelas_model->countid_kelas_1();
+          $id_2 = $this->Pembagian_kelas_model->countid_kelas_2();
+          $id_3 = $this->Pembagian_kelas_model->countid_kelas_3();
+          if ($id_1 <= 15) {
+            $data = array(
+              'tingkat' => 'B',
+              'status_siswa' => 'aktif',
+              'id_kelas' => 1
+            );
+              $this->Pembagian_kelas_model->update_kelas($data,'siswa','id_siswa',$id);
+              // redirect(base_url()."admin/pembagian_kelas");
+          }elseif ($id_2 <= 15) {
+            $data = array(
+              'tingkat' => 'B',
+              'status_siswa' => 'aktif',
+              'id_kelas' => 2
+            );
+              $this->Pembagian_kelas_model->update_kelas($data,'siswa','id_siswa',$id);
+              // redirect(base_url()."admin/pembagian_kelas");
+          }else {
+            $data = array(
+              'tingkat' => 'B',
+              'status_siswa' => 'aktif',
+              'id_kelas' => 3
+            );
+              $this->Pembagian_kelas_model->update_kelas($data,'siswa','id_siswa',$id);
+
+          }
+        }else {
+          echo "<script type='text/javascript'>alert('Berhasil Membagi Siswa kepada kelasnya'); document.location='".base_url()."admin/pembagian_kelas"."' </script>";
+        }
+      }
+      redirect(base_url()."admin/pembagian_kelas");
+    }
+
     public function delete($nik_siswa)
     {
         $row = $this->Siswa_model->get_by_id($nik_siswa);
